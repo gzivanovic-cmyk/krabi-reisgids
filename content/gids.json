@@ -1,0 +1,1618 @@
+{
+  "title": "Zes maanden proefwonen in Krabi",
+  "checked": "2026-10-18",
+  "sections": [
+    {
+      "id": "eerst-regelen",
+      "icon": "🎯",
+      "title": "Eerst regelen",
+      "intro": "Vijf beslissingen vóór niet-flexibele boekingen. Een vinkje betekent: gecontroleerd en bewijs privé bewaard.",
+      "groups": [
+        {
+          "title": "1 · Verblijfsroute voor ieder gezinslid",
+          "items": [
+            {
+              "t": "Laat de bevoegde Thaise ambassade bevestigen waar ieder gezinslid mag aanvragen. Na uitschrijving: vraag welk woonplaatsbewijs wordt geaccepteerd. Geef de feitelijke verblijfplaats op. Den Haag vereist verblijf in Nederland tijdens de hele aanvraag.",
+              "src": [
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/e-visa-general-conditions",
+                  "l": "Thaise ambassade: aanvraagvoorwaarden",
+                  "off": true
+                }
+              ],
+              "warn": true
+            }
+          ]
+        },
+        {
+          "title": "2 · Zorgdekking zonder gat",
+          "items": [
+            {
+              "t": "Laat per persoon beoordelen of de Nederlandse zorgverzekering geldig blijft. Betaald werken op afstand kan de Wlz-status beïnvloeden. Vraag zo nodig een Wlz-onderzoek aan. Zeg bestaande dekking pas op nadat de juiste vervolgstappen en aansluitende dekking vaststaan.",
+              "src": [
+                {
+                  "u": "https://www.svb.nl/nl/wlz/wanneer-verzekerd-voor-de-wlz/u-gaat-op-wereldreis",
+                  "l": "SVB: wereldreis en werken",
+                  "off": true
+                }
+              ],
+              "warn": true
+            }
+          ]
+        },
+        {
+          "title": "3 · Data en reisduur",
+          "items": [
+            {
+              "t": "Kies aankomst- en einddatum voor het totale verblijf. Zes kalendermaanden zijn niet automatisch 180 dagen. Neem resortdagen mee en controleer de toegestane verblijfsduur per persoon.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "4 · Nederland en kinderen",
+          "items": [
+            {
+              "t": "Controleer bewijs en ingangsdatum van uitschrijving, onderwijsstatus en woningafspraken. De dierenopvang is geregeld; controleer nog de overdracht en noodafspraken.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "5 · Geld en werk",
+          "items": [
+            {
+              "t": "Maak één begroting met Thailand én Nederland. Bevestig inkomen, werkafspraken en belastingadvies. Reserveer apart geld voor borg, zorgvoorschotten en een vervroegde terugreis.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voor-vertrek",
+      "title": "Vóór vertrek",
+      "icon": "🧳",
+      "intro": "Alles wat je in Nederland regelt. Het visum is het belangrijkste en heeft haast.",
+      "groups": [
+        {
+          "title": "Paspoort",
+          "items": [
+            {
+              "t": "Je paspoort moet bij aankomst nog minimaal 6 maanden geldig zijn. Ook de kinderen hebben elk een eigen paspoort nodig.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Zonder visum moet je kunnen laten zien dat je op tijd weer vertrekt (retour- of doorreisticket). De douane kan ook vragen naar geld en je verblijfplaats.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Visum (belangrijk!)",
+          "items": [
+            {
+              "t": "Sinds 15 september 2026 mag je met een Nederlands paspoort maar 30 dagen zonder visum in Thailand blijven (was 60). Je kunt dat één keer met 30 dagen verlengen. Samen dus ongeveer 60 dagen: te kort voor 6 à 7 maanden.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                },
+                {
+                  "u": "https://www.tatnews.org/2026/09/thailand-introduces-new-30-day-and-15-day-visa-exemption-rules-from-15-september/",
+                  "l": "TAT (Thaise verkeersbureau)",
+                  "off": true
+                },
+                {
+                  "u": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/538547",
+                  "l": "Thaise overheid (PRD)",
+                  "off": true
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Je hebt dus een visum nodig en dat vraag je vóór vertrek aan, alleen online via thaievisa.go.th. Den Haag helpt alleen als je in Nederland woont en tijdens de hele aanvraag in Nederland bent. Vanuit Thailand aanvragen wordt afgewezen.",
+              "src": [
+                {
+                  "u": "https://thaievisa.go.th",
+                  "l": "thaievisa.go.th (aanvragen)",
+                  "off": true
+                },
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/e-visa-general-conditions",
+                  "l": "Thaise ambassade Den Haag: e-Visa voorwaarden",
+                  "off": true
+                },
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/applying-for-visas-with-the-royal-thai-embassy-the-hague",
+                  "l": "Thaise ambassade Den Haag: aanvragen",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Behandeling duurt meestal 5 tot 10 werkdagen, soms langer. De ambassade raadt aan minimaal 1 maand vóór vertrek aan te vragen. Het geld krijg je niet terug bij afwijzing. Vraag dus nu aan.",
+              "src": [
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/e-visa-general-conditions",
+                  "l": "Thaise ambassade Den Haag: e-Visa voorwaarden",
+                  "off": true
+                },
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/applying-for-visas-with-the-royal-thai-embassy-the-hague",
+                  "l": "Thaise ambassade Den Haag: aanvragen",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Optie 1: Destination Thailand Visa (DTV). 5 jaar geldig, 180 dagen per binnenkomst, één keer met 180 dagen te verlengen. Kost € 350. Voor wie op afstand werkt (remote/freelance, met contract, verklaring of portfolio) of een 'Thai soft power'-activiteit doet (bijvoorbeeld Muay Thai of Thaise kookles). Partner en kinderen onder 20 kunnen mee als gezinslid.",
+              "src": [
+                {
+                  "u": "https://www.thaievisa.go.th/visa/dtv-visa",
+                  "l": "Thai e-Visa: DTV",
+                  "off": true
+                },
+                {
+                  "u": "https://helsinki.thaiembassy.org/en/publicservice/destination-thailand-visa-dtv",
+                  "l": "Thaise ambassade (DTV-voorwaarden)",
+                  "off": true
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "DTV-documenten: laat de actuele eisen van de behandelende ambassade bevestigen, waaronder financieel bewijs, bewijs van werk of activiteit en familiebanden. Neem bedragen per gezinslid, sponsoring en eisen rond een strafblad niet als definitief over uit informatie van een andere ambassade.",
+              "src": [
+                {
+                  "u": "https://hague.thaiembassy.org/th/publicservice/updated-requirements-for-dtv-visa-applications",
+                  "l": "Den Haag: actuele DTV-eisen",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Optie 2: toeristenvisum voor meerdere keren inreizen (METV). 6 maanden geldig, telkens 60 dagen per binnenkomst, per keer één keer 30 dagen te verlengen in Thailand (1.900 baht). Kost € 175. Je moet dan tussendoor het land uit en weer in, zolang het visum nog geldig is.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                },
+                {
+                  "u": "https://hague.thaiembassy.org/th/page/42922-general-information?menu=5d81cce815e39c2eb8004ef1",
+                  "l": "Thaise ambassade Den Haag: algemene info",
+                  "off": true
+                },
+                {
+                  "u": "https://www.immigration.go.th/en/?page_id=1890",
+                  "l": "Thaise immigratiedienst: verlengen",
+                  "off": true
+                },
+                {
+                  "u": "https://www.thaievisa.go.th/visa/tourist-visa",
+                  "l": "Thai e-Visa: toeristenvisum",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Kort de grens over en meteen terug ('visa-run') wordt streng gecontroleerd. Visumvrij via een landgrens mag maximaal 2 keer per kalenderjaar.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                },
+                {
+                  "u": "https://www.tatnews.org/2026/09/thailand-introduces-new-30-day-and-15-day-visa-exemption-rules-from-15-september/",
+                  "l": "TAT (Thaise verkeersbureau)",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Thaise ambassade in Den Haag: Laan Copes van Cattenburch 123, 2585 EZ Den Haag, tel. 070-3450766.",
+              "src": [
+                {
+                  "u": "https://hague.thaiembassy.org/en/index",
+                  "l": "Thaise ambassade Den Haag",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "DTV is een te onderzoeken route bij werken op afstand; METV is een toeristische route. Controleer of de gekozen categorie past bij het daadwerkelijke werk en reisdoel. Visumgeldigheid, toegestane verblijfsduur en belastingpositie zijn verschillende zaken.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Aankomstkaart (TDAC)",
+          "items": [
+            {
+              "t": "Verplicht voor iedereen, ook voor kinderen en baby's. Vul hem in binnen 3 dagen vóór aankomst. Gratis: betaal nooit op andere sites. Je kunt tot 10 personen tegelijk invullen. Het is geen visum, en je doet het bij elke binnenkomst opnieuw.",
+              "src": [
+                {
+                  "u": "https://tdac.immigration.go.th",
+                  "l": "tdac.immigration.go.th (invullen)",
+                  "off": true
+                },
+                {
+                  "u": "https://tdac.immigration.go.th/manual/en/faq.html",
+                  "l": "TDAC veelgestelde vragen",
+                  "off": true
+                },
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Verzekering",
+          "items": [
+            {
+              "t": "Een reis korter dan een jaar geeft niet automatisch zekerheid over de Nederlandse zorgverzekering. Woon- en werksituatie moeten per persoon worden beoordeeld; betaald werken tijdens de reis kan gevolgen hebben. Vraag de SVB bij twijfel om een Wlz-onderzoek.",
+              "src": [
+                {
+                  "u": "https://www.svb.nl/nl/wlz/wanneer-verzekerd-voor-de-wlz/u-gaat-op-wereldreis",
+                  "l": "SVB: wereldreis en werken",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Vraag de verzekeraar schriftelijk of de polis geldt na uitschrijving, voor de volledige aaneengesloten reisduur en bij werken op afstand. Controleer medische kosten, eigen risico, bestaande klachten, repatriëring en geplande sporten. Een reisverzekering vervangt niet vanzelf een basiszorgverzekering.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Bewaar polis, alarmcentrale, betaalmiddelen voor medische voorschotten en contactpersoon offline in een privédossier. Controleer dat nieuwe dekking aansluit zonder onverzekerde dag.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Vaccinaties",
+          "items": [
+            {
+              "t": "Plan een persoonlijk reisadvies voor zes maanden, de reisroute, eventuele overstappen, leeftijd en medische situatie. Bespreek vaccinaties, muggenbescherming en medicatie met de GGD of reisarts; neem niet aan dat voor elke route dezelfde verplichtingen gelden.",
+              "src": [
+                {
+                  "u": "https://www.ggdreisvaccinaties.nl/land/thailand",
+                  "l": "GGD Reisvaccinaties Thailand",
+                  "off": true
+                },
+                {
+                  "u": "https://lcr.nl/landen/thailand",
+                  "l": "LCR Thailand",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Medicijnen: neem genoeg mee, in de originele verpakking, en kijk of je een medicijnverklaring nodig hebt. Koop in Thailand geen (slaap)medicijnen zonder recept.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "School / leerplicht",
+          "items": [
+            {
+              "t": "De eerdere algemene tekst over vakantieverlof past niet als uitgangspunt bij proefwonen na uitschrijving. Bewaar uitschrijfbevestigingen en leg feitelijke vertrek- en verblijfgegevens vast. Laat de toepassing van de leerplicht op de eigen situatie schriftelijk verduidelijken; alleen een BRP-uitschrijving is geen volledige juridische beoordeling.",
+              "src": [
+                {
+                  "u": "https://www.rijksoverheid.nl/themas/onderwijs/leerplicht/vraag-en-antwoord/leerplicht/leerplicht-buitenlandse-school",
+                  "l": "Rijksoverheid: wonen en school in het buitenland",
+                  "off": true
+                }
+              ],
+              "warn": true
+            },
+            {
+              "t": "Controleer ook welke onderwijsregels op jullie verblijf in Thailand van toepassing zijn. Thuisonderwijs of online onderwijs is niet automatisch voor iedere verblijfsstatus toegestaan. Leg de gekozen vorm en eventuele lokale vereisten vast.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Maak voor ieder kind een uitvoerbaar leerplan en een plan voor terugkeer of vervolgonderwijs. Zie het onderdeel Onderwijs & gezinsritme.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Gemeente / uitschrijven",
+          "items": [
+            {
+              "t": "Voor wie al uitgeschreven is: bewaar bevestiging en ingangsdatum privé en controleer adres- en contactgegevens bij relevante instanties. Ga niet opnieuw uit van de checklist voor een gewone vakantie.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Voor wie nog ingeschreven staat: meer dan 8 maanden buiten Nederland binnen een periode van een jaar betekent uitschrijven, ook met een Nederlandse woning. Tel andere reizen mee; dit is geen grens per kalenderjaar.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/brp/wanneer-uitschrijven-gemeente",
+                  "l": "NederlandWereldwijd: uitschrijven",
+                  "off": true
+                }
+              ],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Geld",
+          "items": [
+            {
+              "t": "De munt is de Thaise baht (THB). Grote hotels, restaurants en winkels nemen meestal pinpassen en creditcards aan, kleine zaken vaak niet. Geldautomaten vooral in steden en toeristische plaatsen.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/geld",
+                  "l": "ANWB geld",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Neem verschillende betaalmiddelen mee (bankpas, creditcard, contant) en bewaar ze apart. Zet je bankpas zo nodig open voor gebruik buiten Europa.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/geld",
+                  "l": "ANWB geld",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Pinnen met een buitenlandse pas kost bij Thaise banken een vast bedrag per keer: volgens een niet-officiële vergelijking nu ongeveer 250 (Visa) tot 350 baht (Mastercard). Kies bij de automaat altijd 'in baht'. Je eigen bank kan ook kosten rekenen.",
+              "src": [
+                {
+                  "u": "https://cashfate.com/p/thailand-atm-fees-foreign-cards",
+                  "l": "CashFate pinkosten",
+                  "off": false
+                },
+                {
+                  "u": "https://app.bot.or.th/1213/MCPD/FeeApp/InternationalTransactionFee",
+                  "l": "Bank of Thailand vergelijker",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Bij binnenkomst zonder visum kan de immigratiedienst vragen om 20.000 baht per persoon of 40.000 baht per gezin aan contant geld.",
+              "src": [
+                {
+                  "u": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?menu=",
+                  "l": "Thaise ambassade (visumvrij-voorwaarden)",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Simkaart / eSIM",
+          "items": [
+            {
+              "t": "AIS: tourist-SIM en eSIM vanaf 399 baht (30 dagen onbeperkt data: 1.599 baht). Registreren met paspoort is verplicht. Na 60 dagen moet je je identiteit opnieuw bevestigen (sms naar 4444161 of in een AIS-winkel).",
+              "src": [
+                {
+                  "u": "https://www.ais.th/en/consumers/package/international/tourist-plan",
+                  "l": "AIS tourist-SIM",
+                  "off": true
+                },
+                {
+                  "u": "https://www.ais.th/esim-traveller/",
+                  "l": "AIS eSIM",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "True-dtac (TrueMove H en dtac zijn nu één bedrijf): tourist-SIM en eSIM van 8, 15 of 30 dagen, registratie met paspoort, maximaal 3 per persoon per merk. Een tourist-SIM is maximaal 60 dagen geldig. Te koop op het vliegveld en in winkels.",
+              "src": [
+                {
+                  "u": "https://www.true.th/prepaid/sim/tourist",
+                  "l": "True-dtac tourist-SIM",
+                  "off": true
+                },
+                {
+                  "u": "https://www.true.th/help/international/how-to-register-sim-tourist",
+                  "l": "True-dtac registreren",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Voor 6 maanden is een tourist-SIM dus niet genoeg: reken op opnieuw registreren of een gewoon prepaid-abonnement in een winkel.",
+              "src": [
+                {
+                  "u": "https://www.ais.th/en/consumers/package/international/tourist-plan",
+                  "l": "AIS tourist-SIM",
+                  "off": true
+                },
+                {
+                  "u": "https://www.true.th/prepaid/sim/tourist",
+                  "l": "True-dtac tourist-SIM",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Inpakken",
+          "items": [
+            {
+              "t": "Stel met apotheek of reisarts een reisapotheek samen: ORS, insectenwerend middel, thermometer en passende middelen voor het gezin. Vraag specifiek naar veilig gebruik bij kinderen; gebruik een diarreeremmer niet standaard.",
+              "src": [
+                {
+                  "u": "https://www.ggdreisvaccinaties.nl/land/thailand",
+                  "l": "GGD Reisvaccinaties Thailand",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Niet meenemen: vapes en e-sigaretten zijn verboden (hoge boete, tot 10 jaar cel). Maximaal 200 sigaretten per persoon. Geen cannabis.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Rijbewijs + internationaal rijbewijs (IRB) als je wilt rijden: zie Praktisch.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-reis",
+      "title": "De reis",
+      "icon": "✈️",
+      "intro": "Van huis naar Krabi.",
+      "groups": [
+        {
+          "title": "Vlucht",
+          "items": [
+            {
+              "t": "Je vliegt naar Krabi International Airport (KBV). Dat wordt beheerd door het Thaise Department of Airports. (De officiële site gaf bij controle een foutmelding.)",
+              "src": [
+                {
+                  "u": "https://minisite.airports.go.th/krabi/home",
+                  "l": "Krabi Airport (officieel)",
+                  "off": true
+                },
+                {
+                  "u": "https://thailand-airport.com/krabi/faq/",
+                  "l": "thailand-airport.com",
+                  "off": false
+                }
+              ]
+            },
+            {
+              "t": "Vergeet de TDAC niet: binnen 3 dagen vóór aankomst, voor ieder gezinslid.",
+              "src": [
+                {
+                  "u": "https://tdac.immigration.go.th",
+                  "l": "tdac.immigration.go.th (invullen)",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Transfer vanaf KBV",
+          "items": [
+            {
+              "t": "Het vliegveld ligt ongeveer 7 km van Krabi Town en ongeveer 26 km van Ao Nang (30 à 45 minuten). (Niet-officiële bron.)",
+              "src": [
+                {
+                  "u": "https://thailand-airport.com/krabi/faq/",
+                  "l": "thailand-airport.com",
+                  "off": false
+                }
+              ]
+            },
+            {
+              "t": "Shuttlebus naar Krabi Town en Ao Nang: 150 baht per persoon, ongeveer elk uur van 06.00 tot 20.00. Taxi met vaste prijs: ongeveer 350 baht naar Krabi Town, 500 à 600 baht naar Ao Nang (per auto). Of een vooraf geboekte privétransfer. Met kinderen en veel bagage is een taxi of transfer het makkelijkst. (Niet-officiële bron.)",
+              "src": [
+                {
+                  "u": "https://thailand-airport.com/krabi/faq/",
+                  "l": "thailand-airport.com",
+                  "off": false
+                }
+              ]
+            },
+            {
+              "t": "In de aankomsthal zitten autoverhuurders. Je hebt een internationaal rijbewijs nodig. (Niet-officiële bron.)",
+              "src": [
+                {
+                  "u": "https://thailand-airport.com/krabi/faq/",
+                  "l": "thailand-airport.com",
+                  "off": false
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Privé documentmap",
+          "items": [
+            {
+              "t": "Bewaar paspoorten, visa, geboorte- en huwelijksdocumenten waar nodig, verzekeringsbewijs, tickets en reserveringen veilig en offline. Controleer vooraf eventuele vertaling of legalisatie.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Reist een ouder afzonderlijk met de kinderen? Controleer toestemming en reisdocumenten voor minderjarigen. Bewaar niets daarvan op deze openbare website.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Leg noodcontacten, alarmcentrale en toegang tot geld vast. Deel de privémappen alleen met een vertrouwd contact.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aankomst",
+      "title": "Aankomst & eerste dagen",
+      "icon": "🏝️",
+      "intro": "De eerste dagen rustig aan.",
+      "groups": [
+        {
+          "title": "Bij aankomst",
+          "items": [
+            {
+              "t": "Bij binnenkomst krijg je een stempel in je paspoort met de uiterste datum van vertrek. Bewaar die datum goed.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                },
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Simkaart: op het vliegveld te koop (True-dtac ook 24/7 op vliegvelden). Registreren met paspoort.",
+              "src": [
+                {
+                  "u": "https://www.true.th/prepaid/sim/tourist",
+                  "l": "True-dtac tourist-SIM",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Het resort of hotel moet binnen 24 uur je verblijf melden bij de immigratiedienst (TM30). Dat is hun taak, niet de jouwe.",
+              "src": [
+                {
+                  "u": "https://thailand.go.th/issue-focus-detail/001_01_060",
+                  "l": "Thaise overheid: TM30",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Veilig beginnen",
+          "items": [
+            {
+              "t": "Zee: ga bij een rode vlag of ruwe zee niet het water in. Draag een zwemvest bij kajakken.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Scooter huren: geef nooit je paspoort of rijbewijs als borg (de Thaise overheid verbiedt dat), alleen een kopie. Maak foto's van de scooter vooraf.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resort",
+      "title": "Resort & omgeving",
+      "icon": "🌴",
+      "intro": "Voorstel: begin met 1–3 weken flexibele accommodatie. Data en boeking zijn nog te bevestigen; deze weken tellen mee in het halfjaar.",
+      "groups": [
+        {
+          "title": "Goed om te weten",
+          "items": [
+            {
+              "t": "Krabi heeft kleurcode geel: je kunt er naartoe, maar let op bijzondere veiligheidsrisico's. Rood en oranje gelden alleen voor grensgebieden en het diepe zuiden, niet voor Krabi.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Let op zakkenrollers en tasdieven op brommers, vooral op drukke plekken.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Roken is op veel stranden strafbaar (boete tot 100.000 baht of tot 1 jaar cel).",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eten",
+      "title": "Eten",
+      "icon": "🍜",
+      "intro": "Hier komen vooral de tips van je vrouw: restaurants, markten en lekkere plekken.",
+      "groups": [
+        {
+          "title": "Gezondheid",
+          "items": [
+            {
+              "t": "Bespreek voedsel- en waterhygiëne en passende reisvaccinaties tijdens het reisconsult. Vraag hoe te handelen bij diarree, uitdroging of koorts, ook bij kinderen.",
+              "src": [
+                {
+                  "u": "https://www.ggdreisvaccinaties.nl/land/thailand",
+                  "l": "GGD: Thailand",
+                  "off": true
+                }
+              ],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Dagelijkse boodschappen & maaltijden",
+          "items": [
+            {
+              "t": "Zoek in de eerste week een supermarkt, versmarkt en enkele betaalbare vaste eetplekken. Noteer jullie werkelijke weekkosten, niet alleen restaurantprijzen.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Vraag bij vegetarisch of veganistisch eten expliciet naar vissaus, oestersaus, garnalenpasta, ei en zuivel. Bespreek allergieën afzonderlijk; vertrouw niet uitsluitend op een gerechtnaam.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Controleer bij de woning koelkast, kookplaat, drinkwatervoorziening en bezorgmogelijkheden. Plan gewone maaltijden rond werk, onderwijs en sport.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activiteiten",
+      "title": "Activiteiten gezin & kinderen",
+      "icon": "🐢",
+      "intro": "Uitjes en dingen om te doen met de kinderen.",
+      "groups": [
+        {
+          "title": "Veilig op pad",
+          "items": [
+            {
+              "t": "Zwemmen, duiken, kajakken: wees alert op sterke stroming en hoge golven, vooral van mei tot oktober. Zwemvest aan bij kajakken.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Bussen en veerboten zijn niet altijd goed onderhouden en soms overvol, met te weinig reddingsvesten. Let daarop bij eilandtripjes.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Rabiës (hondsdolheid) komt voor; contact met dieren is een risico. Bespreek met de GGD of vaccinatie verstandig is voor de kinderen.",
+              "src": [
+                {
+                  "u": "https://www.ggdreisvaccinaties.nl/land/thailand",
+                  "l": "GGD Reisvaccinaties Thailand",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Drones: strenge regels, hoge boetes.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "villa",
+      "title": "Villazoektocht",
+      "icon": "🏡",
+      "intro": "Zoek ter plaatse een woning voor de resterende proefperiode. Leg pas een lang contract vast na bezichtiging en controle van de afspraken.",
+      "link": {
+        "u": "https://gzivanovic-cmyk.github.io/krabi-villa/",
+        "l": "Open de villa-site"
+      },
+      "groups": [
+        {
+          "title": "Afspraken met de verhuurder",
+          "items": [
+            {
+              "t": "De eigenaar van de villa moet binnen 24 uur melden dat jullie er wonen (TM30). Spreek dit af; je hebt het bewijs vaak nodig bij een verlenging of 90-dagenmelding.",
+              "src": [
+                {
+                  "u": "https://thailand.go.th/issue-focus-detail/001_01_060",
+                  "l": "Thaise overheid: TM30",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bezichtiging & contract",
+          "items": [
+            {
+              "t": "Controleer identiteit en verhuurbevoegdheid van de aanbieder. Laat prijs, huurperiode, borgteruggave, opzegging, inventaris en onderhoud schriftelijk vastleggen. Betaal niet alleen op basis van foto's.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Test wifi met een videogesprek en mobiele dekking in de werkruimte. Bekijk de woning op verschillende tijden: verkeer, bouwgeluid, vocht, insecten, waterdruk en airconditioning.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Leg stroomprijs per kWh, meterstanden, water, internet, schoonmaak, zwembad- en tuinonderhoud vast. Maak samen foto's bij de sleuteloverdracht.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Controleer bereikbaarheid van boodschappen, zorg en sport, veilige toegang en zwembad, en vraag naar wateroverlast en stroomuitval. Een mooie vakantievilla is niet vanzelf een geschikte werk- en gezinswoning.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "icon": "💶",
+      "title": "Budget & reserve",
+      "intro": "Vul bedragen in euro's in via het persoonlijke overzicht hierboven. Geen geschatte marktprijzen: gebruik offertes en jullie eigen uitgaven.",
+      "groups": [
+        {
+          "title": "Maandelijks",
+          "items": [
+            {
+              "t": "Thailand: huur + stroom/water + internet/telefoons + boodschappen/uit eten + vervoer + verzekeringen + onderwijs/sport + overige kosten.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Nederland: huur/hypotheek + vaste contracten + verzekeringen + dierenopvang + zakelijke lasten. Tel alleen kosten mee die echt doorlopen.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Vergelijk totale maandlasten met netto beschikbaar gezinsinkomen, dus na zakelijke kosten en reserveringen voor belasting.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Eenmalig & achter de hand",
+          "items": [
+            {
+              "t": "Begroot vluchten, eerste accommodatie, visa/documenten, vaccinaties, borg en inrichting apart. Voorkom dat de eerste accommodatie dubbel wordt geteld.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Houd terugreisgeld voor vier personen, medische voorschotten en een noodbuffer los van het maandbudget. Borg is tijdelijk niet beschikbaar.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Rekenvoorbeeld voor jullie eigen sheet: totaal verblijf = aantal maanden × maandlasten + eenmalige kosten + buffer. Controleer na de eerste maand de werkelijke uitgaven.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "werk",
+      "icon": "💻",
+      "title": "Werk & administratie",
+      "intro": "Online werken is het uitgangspunt. Regel daarvoor passend verblijf, dekking en een betrouwbare werkplek.",
+      "groups": [
+        {
+          "title": "Werkafspraken",
+          "items": [
+            {
+              "t": "Leg met werkgever en opdrachtgevers vast vanuit welk land en welke periode je werkt, bereikbaarheid, werkuren en eventuele voorwaarden. Laat verblijfs- en werkrecht aansluiten bij de activiteiten.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Test vaste internetverbinding en een mobiele reserveverbinding. Regel een rustige werkplek, back-ups, tweestapsverificatie en toegang tot zakelijke systemen.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Belastingen & sociale zekerheid",
+          "items": [
+            {
+              "t": "Laat een adviseur jouw woonplaats, fysiek in Thailand verrichte werkzaamheden, Nederlandse onderneming of dienstverband en eventuele Thaise verplichtingen beoordelen. DTV of minder dan 180 dagen verblijf betekent niet automatisch belastingvrij.",
+              "src": [
+                {
+                  "u": "https://www.rd.go.th/english/6045.html",
+                  "l": "Thaise belastingdienst: inkomstenbelasting",
+                  "off": true
+                }
+              ],
+              "warn": false
+            },
+            {
+              "t": "Houd verblijfsdagen per land en per kalenderjaar bij. Gebruik de visumtermijn niet als belastingberekening. Controleer ook gevolgen voor toeslagen, kinderbijslag en sociale verzekeringen bij de bevoegde instanties.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onderwijs",
+      "icon": "📚",
+      "title": "Onderwijs & gezinsritme",
+      "intro": "Proefwonen betekent ook leren, werken en een sociaal leven opbouwen.",
+      "groups": [
+        {
+          "title": "Leren & ontwikkeling",
+          "items": [
+            {
+              "t": "Maak per kind een plan met leerdoelen, materialen, begeleiding, vaste leermomenten en maandelijkse voortgang. Bewaar resultaten privé voor vervolgonderwijs.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Controleer erkenning en aansluiting als je een online of lokale school kiest. Bespreek wat nodig is bij terugkeer naar Nederland; onderzoek lokale onderwijsregels vóór de keuze.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Een gewone week",
+          "items": [
+            {
+              "t": "Plan vaste tijden voor werk, leren, beweging en vrije tijd. Zoek terugkerende activiteiten met leeftijdgenoten; uitstapjes vervangen geen sociaal netwerk.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Laat ieder gezinslid na vier weken en drie maanden apart aangeven: hoe gaat het met energie, vrienden, leren/werken, zelfstandigheid en thuisgevoel? Maak concrete aanpassingen.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nederland",
+      "icon": "🔑",
+      "title": "Nederland & dierenopvang",
+      "intro": "Maak de thuisbasis betrouwbaar voordat jullie vertrekken.",
+      "groups": [
+        {
+          "title": "Woning & bereikbaarheid",
+          "items": [
+            {
+              "t": "Controleer huurvoorwaarden en bespreek langdurige afwezigheid of huisoppas met de verhuurder. Leg afspraken schriftelijk vast; kosteloos verblijf betekent niet vanzelf dat het volgens het contract is toegestaan.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Controleer woning- en aansprakelijkheidsverzekeringen, sleutels, post, onderhoud en noodcontact. Regel toegang tot DigiD, bankapps en Nederlandse sms-codes vanuit het buitenland.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Dierenopvang",
+          "items": [
+            {
+              "t": "De dieren zijn al ondergebracht. Controleer alleen nog de overdracht: verzorging, voeding, eventuele medicatie, dierenarts, betaalafspraken en wie beslist bij spoed.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Plan een kennismaking en proefperiode vóór vertrek. Bewaar contactgegevens, medische informatie en chipgegevens privé.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Als dieren alsnog meegaan: maak een apart import- en vluchtplan en controleer uitvoer-, invoer- en terugkeervereisten voordat je vervoer boekt. Dit valt buiten de opvangroute.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terugkeer",
+      "icon": "🧭",
+      "title": "Evalueren & terugkeer",
+      "intro": "Na zes maanden bewust kiezen: terugkeren, verlengen of een ander plan.",
+      "groups": [
+        {
+          "title": "Beslismomenten",
+          "items": [
+            {
+              "t": "Week 4: klopt het budget, werkt de woning en heeft iedereen een ritme? Maand 3: beoordelen we het dagelijks leven positief, ook op gewone werkdagen?",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Uiterlijk 4–6 weken vóór de geplande einddatum: besluit over terugkeer of langer blijven. Controleer eerst nieuw verblijfsrecht, dekking, huisvesting en verplichtingen.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Beoordeel alle vier: gezondheid, sociale contacten, onderwijs/werk, kosten en woonkwaliteit. Bekijk ook welk deel van het jaar jullie nog niet hebben meegemaakt.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        },
+        {
+          "title": "Eerder terug kunnen",
+          "items": [
+            {
+              "t": "Houd geld voor tickets en tijdelijke opvang beschikbaar. Spreek af wie zaken in Thailand afrondt als één of meer gezinsleden eerder vertrekken.",
+              "src": [],
+              "warn": false
+            },
+            {
+              "t": "Voor vertrek uit de villa: opzegtermijn, inspectie, borg, meters en laatste rekeningen. Bij terugkeer: controleer inschrijving, verzekeringen en onderwijs passend bij de feitelijke situatie.",
+              "src": [],
+              "warn": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praktisch",
+      "title": "Praktisch",
+      "icon": "🧭",
+      "intro": "Vervoer, zorg, noodnummers en de regels als je er woont.",
+      "groups": [
+        {
+          "title": "Noodnummers",
+          "items": [
+            {
+              "t": "191 algemeen alarmnummer (politie) · 1155 toeristenpolitie · 1669 medische noodgevallen · 199 brandweer · 1646 medisch, regio Bangkok.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "AIS noemt ook 1554 (ambulance en redding) en 1860 (rampenwaarschuwing).",
+              "src": [
+                {
+                  "u": "https://www.ais.th/en/consumers/package/international/tourist-plan",
+                  "l": "AIS tourist-SIM",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Nederlandse ambassade",
+          "items": [
+            {
+              "t": "Nederlandse ambassade Bangkok (nieuw adres sinds 2026): Central Park Offices, 22e verdieping, 92 Rama IV Road, Silom, Bangrak, Bangkok 10500. Tel. +66 23 09 52 00. Alleen op afspraak.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/thailand/ambassade-bangkok",
+                  "l": "Nederlandse ambassade Bangkok",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "24 uur per dag bereikbaar via +31 247 247 247. WhatsApp (alleen berichten): +31 857 737 400.",
+              "src": [
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/thailand/ambassade-bangkok",
+                  "l": "Nederlandse ambassade Bangkok",
+                  "off": true
+                },
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Zorg & ziekenhuizen",
+          "items": [
+            {
+              "t": "Krabi Nakharin International Hospital (particulier, 24 uur open): 1 Pisanpob Rd., Paknam, Muang Krabi 81000. Tel. 075 626 555 (spoedeisende hulp: toestel 1140).",
+              "src": [
+                {
+                  "u": "https://www.krabinakharin.co.th/?lang=en",
+                  "l": "Krabi Nakharin International Hospital",
+                  "off": true
+                },
+                {
+                  "u": "http://www.krabinakharin.co.th/contect_us/?lang=en",
+                  "l": "Krabi Nakharin: contact",
+                  "off": true
+                },
+                {
+                  "u": "https://www.krabinakharin.co.th/clinic/erdepartment/?lang=en",
+                  "l": "Krabi Nakharin: spoedeisende hulp",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Krabi Hospital (overheidsziekenhuis, spoedeisende hulp 24 uur, kinderafdeling): 325 Utarakit Rd., Pak Nam, Mueang Krabi 81000. Tel. 075-626700, nood 1669.",
+              "src": [
+                {
+                  "u": "https://www.krabihospital.go.th/",
+                  "l": "Krabi Hospital",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Bangkok Hospital Phuket (op Phuket, niet in Krabi): 2/1 Hongyok Utis Road, Mueang Phuket. Tel. +66 76 254 425, spoed 1719. Controleer deze gegevens op hun site.",
+              "src": [
+                {
+                  "u": "https://www.bangkokhospital.com/en/phuket/contact/head-office",
+                  "l": "Bangkok Hospital Phuket: contact",
+                  "off": true
+                },
+                {
+                  "u": "https://www.bangkokhospital.com/en/phuket/visit/important-telephone-numbers",
+                  "l": "Bangkok Hospital Phuket: telefoonnummers",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vervoer & rijbewijs",
+          "items": [
+            {
+              "t": "Je Nederlandse rijbewijs is in Thailand alleen geldig samen met een internationaal rijbewijs (IRB). De ANWB raadt model 1968 aan. Haal het persoonlijk op bij een ANWB-winkel (rijbewijs, adresbewijs, pasfoto). Neem beide mee.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Scooters vanaf 50 cc gelden als motor: je hebt een motorrijbewijs plus IRB nodig. Huurscooters zijn meestal niet verzekerd. Er gebeuren veel verkeersongelukken; zonder geldig rijbewijs betaalt de reisverzekering vaak niet.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                },
+                {
+                  "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+                  "l": "Reisadvies NederlandWereldwijd",
+                  "off": true
+                }
+              ]
+            },
+            {
+              "t": "Volgens de ANWB mag je 6 maanden rijden met je Nederlandse rijbewijs plus IRB. Daarna heb je een tijdelijk Thais rijbewijs nodig.",
+              "src": [
+                {
+                  "u": "https://www.anwb.nl/vakantie/thailand/reisvoorbereiding/reisdocumenten",
+                  "l": "ANWB reisdocumenten",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "90-dagenmelding (TM.47)",
+          "items": [
+            {
+              "t": "Bij meer dan 90 dagen aaneengesloten verblijf kan een adresmelding (TM.47) nodig zijn. Vraag bij de immigratiedienst naar jullie eerste meldingsdatum en de termijn voor de gekozen methode; online, post en persoonlijk hebben niet noodzakelijk dezelfde termijnen. Een adresmelding verlengt je verblijf niet. Ga er niet van uit dat iedere visumverlenging automatisch een nieuwe melding vervangt.",
+              "src": [
+                {
+                  "u": "https://immigration.go.th/en?page_id=1666",
+                  "l": "Thaise immigratiedienst: 90-dagenmelding",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "TM30 (adresmelding)",
+          "items": [
+            {
+              "t": "De verhuurder, eigenaar of het hotel moet binnen 24 uur na aankomst melden dat je er verblijft. Dat is hun plicht, niet de jouwe, maar vraag om het bewijs.",
+              "src": [
+                {
+                  "u": "https://thailand.go.th/issue-focus-detail/001_01_060",
+                  "l": "Thaise overheid: TM30",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Visum verlengen",
+          "items": [
+            {
+              "t": "Verlengen voor toerisme: persoonlijk bij het immigratiekantoor met formulier TM.7, kopie paspoort, pasfoto 4x6 cm en 1.900 baht. De immigratiedienst beslist. DTV: verlengen met 180 dagen bij de immigratiedienst.",
+              "src": [
+                {
+                  "u": "https://www.immigration.go.th/en/?page_id=1890",
+                  "l": "Thaise immigratiedienst: verlengen",
+                  "off": true
+                },
+                {
+                  "u": "https://helsinki.thaiembassy.org/en/publicservice/destination-thailand-visa-dtv",
+                  "l": "Thaise ambassade (DTV-voorwaarden)",
+                  "off": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "weather": {
+        "rows": [
+          [
+            "november",
+            31.4,
+            22.3,
+            198.6,
+            17.5
+          ],
+          [
+            "december",
+            31.5,
+            21.7,
+            90.3,
+            11.1
+          ],
+          [
+            "januari",
+            32.6,
+            21.5,
+            96.8,
+            7.7
+          ],
+          [
+            "februari",
+            34.1,
+            21.5,
+            35.9,
+            4.3
+          ],
+          [
+            "maart",
+            34.7,
+            22.4,
+            108.4,
+            8.3
+          ],
+          [
+            "april",
+            34.3,
+            23.1,
+            142.2,
+            12.7
+          ],
+          [
+            "mei",
+            33,
+            23.5,
+            210.1,
+            17.5
+          ]
+        ],
+        "note": "Langjarige gemiddelden 1994–2020, station Krabi; geen weersvoorspelling. Gebruik ze om ook hitte, regen en dagelijks leven te beoordelen. Controleer lokale luchtkwaliteit op de dag zelf; trek landelijke seizoensuitspraken niet automatisch door naar Krabi.",
+        "src": [
+          {
+            "u": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+            "l": "Thai Meteorological Department (pdf, station Krabi)",
+            "off": true
+          },
+          {
+            "u": "https://www.nederlandwereldwijd.nl/reisadvies/thailand",
+            "l": "Reisadvies NederlandWereldwijd",
+            "off": true
+          }
+        ]
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "visum-route-v3",
+      "t": "Aanvraaglocatie na eventuele uitschrijving en passende visumroute voor ieder gezinslid bevestigd",
+      "urgent": true,
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "data-v3",
+      "t": "Exacte reisdata en totaalduur afgesproken",
+      "sec": "eerst-regelen",
+      "urgent": true,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "budget-v3",
+      "t": "Maandbudget, eenmalige kosten en terugreisbuffer vastgesteld",
+      "sec": "budget",
+      "urgent": true,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "werk-v3",
+      "t": "Afspraken voor online werk en beoordeling van belasting/sociale zekerheid geregeld",
+      "sec": "werk",
+      "urgent": true,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "woning-v3",
+      "t": "Woning, afwezigheid en eventuele huisoppas schriftelijk geregeld",
+      "sec": "nederland",
+      "urgent": true,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "dieren-v3",
+      "t": "Dierenopvang geregeld",
+      "sec": "nederland",
+      "urgent": false,
+      "phase": "Vóór vertrek",
+      "done": true
+    },
+    {
+      "id": "paspoort",
+      "t": "Paspoorten van alle 4 gezinsleden: nog minimaal 6 maanden geldig bij aankomst",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "vaccin",
+      "t": "Afspraak GGD-reisvaccinaties voor het hele gezin",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "zorg-v3",
+      "t": "Zorgstatus per persoon beoordeeld; schriftelijke dekking zonder gat geregeld",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "reisverz-v3",
+      "t": "Reisverzekering dekt volledige duur, woonstatus, werk en geplande activiteiten",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "school-v3",
+      "t": "Onderwijsstatus na vertrek verduidelijkt en leerplan voorbereid",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "brp-v3",
+      "t": "Uitschrijfbevestigingen bewaard; situatie van nog ingeschreven gezinsleden gecontroleerd",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "bankpas",
+      "t": "Bankpassen openzetten voor buiten Europa; creditcard mee",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "irb",
+      "t": "Internationaal rijbewijs halen bij de ANWB (als je wilt rijden)",
+      "sec": "praktisch",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "medicijn",
+      "t": "Medicijnen in originele verpakking + eventueel medicijnverklaring",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "inpakken-v3",
+      "t": "Reisapotheek met passend advies samengesteld; geen vapes",
+      "sec": "voor-vertrek",
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "tdac",
+      "t": "TDAC invullen voor alle 4 (binnen 3 dagen vóór aankomst, gratis)",
+      "sec": "voor-vertrek",
+      "phase": "Laatste dagen"
+    },
+    {
+      "id": "transfer",
+      "t": "Transfer vanaf Krabi Airport regelen",
+      "sec": "de-reis",
+      "phase": "Laatste dagen"
+    },
+    {
+      "id": "sim",
+      "t": "Simkaart of eSIM kopen en registreren met paspoort",
+      "sec": "aankomst",
+      "phase": "In Thailand"
+    },
+    {
+      "id": "tm30",
+      "t": "Villa: eigenaar doet TM30-melding; bewijs vragen",
+      "sec": "villa",
+      "phase": "In Thailand"
+    },
+    {
+      "id": "90d-v3",
+      "t": "Persoonlijke meldingsdatum en juiste methode voor TM.47 bevestigd",
+      "sec": "praktisch",
+      "phase": "In Thailand"
+    },
+    {
+      "id": "verleng",
+      "t": "Visum verlengen of uitreizen vóór de stempeldatum",
+      "sec": "praktisch",
+      "phase": "In Thailand"
+    },
+    {
+      "id": "documenten-v3",
+      "t": "Privé documentmap en offline noodinformatie gereed",
+      "sec": "de-reis",
+      "urgent": false,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "eerste-verblijf-v3",
+      "t": "Flexibele eerste accommodatie en aankomstroute bevestigd",
+      "sec": "resort",
+      "urgent": false,
+      "phase": "Vóór vertrek"
+    },
+    {
+      "id": "villa-contract-v3",
+      "t": "Woning bezichtigd; internet en huurvoorwaarden gecontroleerd",
+      "sec": "villa",
+      "urgent": false,
+      "phase": "In Thailand"
+    },
+    {
+      "id": "stempels-v3",
+      "t": "Toegestane einddatum van ieder gezinslid gecontroleerd",
+      "sec": "aankomst",
+      "urgent": false,
+      "phase": "In Thailand"
+    },
+    {
+      "id": "evaluatie-v3",
+      "t": "Evaluatiemomenten na vier weken en drie maanden ingepland",
+      "sec": "terugkeer",
+      "urgent": false,
+      "phase": "In Thailand"
+    },
+    {
+      "id": "terugreis-v3",
+      "t": "Terugkeer of verlenging tijdig geregeld",
+      "sec": "terugkeer",
+      "urgent": false,
+      "phase": "In Thailand"
+    },
+    {
+      "id": "dieren-overdracht-v3",
+      "t": "Overdracht, noodcontact en dierenartsafspraken met de opvang gecontroleerd",
+      "sec": "nederland",
+      "phase": "Vóór vertrek"
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Nu · vóór vaste boekingen",
+      "t": "Visumroute en aanvraaglocatie, zorgdekking, data, budget, thuisbasis en onderwijsstatus bevestigen.",
+      "urgent": true
+    },
+    {
+      "when": "Vóór vertrek",
+      "t": "Documenten en verzekeringen afronden; eerste verblijf en vervoer boeken; privé noodmap en opvang gereed."
+    },
+    {
+      "when": "Binnen 3 dagen vóór aankomst",
+      "t": "TDAC per reiziger invullen via de officiële site; reisdocumenten en eerste verblijf bij de hand."
+    },
+    {
+      "when": "Dag 1–3",
+      "t": "Inreisstempel per persoon controleren, TM30-bewijs vragen, simkaart en noodcontacten regelen."
+    },
+    {
+      "when": "Week 1–3",
+      "t": "Wijken en woningen bekijken; werkplek, boodschappen, onderwijs en sport opstarten."
+    },
+    {
+      "when": "Week 4",
+      "t": "Werkelijke kosten en gezinsritme evalueren; afspraken en budget bijstellen."
+    },
+    {
+      "when": "Rond dag 90 · indien van toepassing",
+      "t": "Meldingsdatum en methode vooraf bevestigen; 90-dagenmelding is geen verblijfsverlenging."
+    },
+    {
+      "when": "Maand 3",
+      "t": "Tussenevaluatie met alle gezinsleden: wonen, leren, werken, gezondheid en sociale contacten."
+    },
+    {
+      "when": "4–6 weken vóór einddatum",
+      "t": "Terugkeer of verlenging besluiten en regelen, vóór de stempeldatum van ieder gezinslid."
+    },
+    {
+      "when": "Rond zes maanden totaal",
+      "t": "Geplande afronding. De exacte einddatum volgt uit de gekozen reisdata en toegestane verblijfsduur."
+    }
+  ],
+  "villa": "https://gzivanovic-cmyk.github.io/krabi-villa/",
+  "subtitle": "Ons vertrekplan, dagelijks leven en praktische reisgids. Doel: ongeveer zes maanden totaal, inclusief de eerste accommodatie. Exacte data en persoonlijke bevestigingen vullen we nog in."
+}

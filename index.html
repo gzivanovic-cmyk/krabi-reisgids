@@ -52,6 +52,13 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;t
 .foot{color:var(--m);font-size:14px;text-align:center;margin-top:24px}
 .hidden{display:none}
 @media(min-width:640px){nav.toc{grid-template-columns:1fr 1fr 1fr}}
+
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.toolbar button,.toolbar select{font:inherit;border:1px solid var(--b);background:#fff;border-radius:9px;padding:9px 12px;color:var(--g);cursor:pointer}
+.fieldgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fieldgrid label{font-size:15px;display:block}.fieldgrid input{width:100%;min-width:0;font:inherit;padding:10px;border:1px solid var(--b);border-radius:8px;background:#fff;margin-top:5px}
+summary{cursor:pointer;font-weight:650;padding:8px 0}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #c4561c;outline-offset:3px}
+.check .detail-link{font-size:14px;display:block;margin-top:5px}.check[hidden],.check li[hidden]{display:none}.notice{background:var(--g2);border-radius:12px;padding:14px;margin:12px 0}.priority{border-left:5px solid var(--o)!important}
+@media(max-width:420px){.fieldgrid{grid-template-columns:1fr}nav.toc{gap:6px}nav.toc a{padding:8px;font-size:14px}}
+@media print{header.top,nav.toc,.toolbar,.tips,.legend{display:none!important}body{font-size:11pt;background:white}.wrap{max-width:none;padding:0}section.card{border:0;border-bottom:1px solid #ddd;margin:10px 0;padding:10px 0}h2,h3{break-after:avoid}li{break-inside:avoid}.src a{font-size:9pt}input{border:0}details>*{display:block!important}}
 </style></head><body>
 <div id="loading" class="wrap" style="padding-top:40px;text-align:center;color:var(--m)">Reisgids laden…</div>
 <div id="app" class="hidden">
@@ -71,35 +78,46 @@ function tipBtn(t){const u=safeUrl(t.url);if(!u)return el('div',{class:'nolink',
  const m=(t.media||'').toLowerCase(),txt=((t.text||'')+' '+(t.title||'')).toLowerCase();
  let label='Bekijk op Instagram';if(m==='video'||m==='reel'||/\bvideo\b|filmpje|\breel\b/.test(txt))label='Bekijk filmpje op Instagram';else if(m==='foto'||m==='post')label='Bekijk post op Instagram';
  return el('a',{class:'igbtn',href:u,target:'_blank',rel:'noopener noreferrer','aria-label':label+(t.title?': '+t.title:'')},el('span',{class:'ic','aria-hidden':'true',text:'▶'}),label)}
+function remember(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch(e){const n=$('save-status');if(n)n.textContent='Opslaan is geblokkeerd in deze browser. Houd je gegevens apart bij.';return false}}
 const CK='krabi-checklist';let CH;try{CH=JSON.parse(localStorage.getItem(CK))||{}}catch(e){CH={}}
 function start(d){
  $('loading').classList.add('hidden');$('app').classList.remove('hidden');
- const g=d.gids,tips=d.tips||[],M=$('main');M.textContent='';
- M.append(el('h1',{class:'hero',text:g.title}),el('p',{class:'sub',text:'Rustig overzicht voor het hele gezin. Feiten gecontroleerd op '+fmt(g.checked)+'. Regels kunnen veranderen: kijk vlak voor vertrek nog even op de officiële sites.'}));
+ const g=d.gids,tips=d.tips||[],M=$('main');M.textContent='';g.checklist.forEach(c=>{if(c.done && !(c.id in CH))CH[c.id]=true});
+ M.append(el('h1',{class:'hero',text:g.title}),el('p',{class:'sub',text:g.subtitle||'Praktisch overzicht voor het gezin.'}));
  const lg=el('div',{class:'legend'},el('div',null,el('span',{class:'dot w'}),el('span',{text:'Van je vrouw (Instagram)'})),el('div',null,el('span',{class:'dot r'}),el('span',{text:'Aangevuld door Krabi Reisgids, met bronlink'})),el('div',null,el('span',{class:'unoff',text:'niet-officiële bron'}),el('span',{text:' = handig, maar niet van een overheid of het bedrijf zelf'})));
  M.append(lg);
+ const actions=el('div',{class:'toolbar'}),print=el('button',{type:'button',text:'Afdrukken / PDF'});print.onclick=()=>window.print();actions.append(el('a',{class:'btn',href:'#eerst-regelen',text:'Begin hier: eerst regelen'}),print);M.append(actions);
+ const plan=el('details',{class:'card'});plan.append(el('summary',{text:'✍️ Ons persoonlijke overzicht invullen'}),el('p',{class:'intro',id:'save-status',text:'Alleen opgeslagen in deze browser, niet gedeeld of gesynchroniseerd. Geen paspoortnummers of medische gegevens invullen.'}));
+ let P={};try{P=JSON.parse(localStorage.getItem('krabi-plan-v3'))||{}}catch(e){}
+ const fields=el('div',{class:'fieldgrid'});
+ [['arrival','Aankomst Thailand','date'],['departure','Geplande vertrekdatum Thailand','date'],['monthly','Totaal maandbudget (€)','number'],['reserve','Apart beschikbare buffer (€)','number']].forEach(([id,label,type])=>{const inp=el('input',{id:'plan-'+id,type,min:type==='number'?'0':null,step:type==='number'?'0.01':null});inp.value=P[id]||'';inp.oninput=()=>{P[id]=inp.value;remember('krabi-plan-v3',P);duration()};fields.append(el('label',{for:'plan-'+id},label,inp))});
+ const days=el('p',{class:'notice','aria-live':'polite'});
+ function duration(){if(!P.arrival||!P.departure){days.textContent='Reisdata nog te bepalen. Het resort telt mee in de totale reisduur.';return}const n=Math.round((Date.parse(P.departure)-Date.parse(P.arrival))/86400000)+1;days.textContent=n>0?'Geplande duur: '+n+' dagen, inclusief aankomst- en vertrekdag. Vergelijk dit met de inreisstempel per persoon; dit is geen visumberekening.':'De einddatum moet op of na de aankomstdatum liggen.'}
+ plan.append(fields,days);duration();M.append(plan);
  const toc=el('nav',{class:'toc','aria-label':'Inhoud'});
  toc.append(el('a',{href:'#checklist'},'✅ Checklist'),el('a',{href:'#tijdlijn'},'🗓️ Tijdlijn'));
  g.sections.forEach(s=>toc.append(el('a',{href:'#'+s.id},(s.icon||'')+' '+s.title)));M.append(toc);
  // checklist
- const cs=el('section',{class:'card',id:'checklist'},el('h2',{text:'✅ Checklist'}),el('p',{class:'intro',text:'Vink af wat klaar is. Dit wordt op dit apparaat onthouden.'}));
+ const cs=el('section',{class:'card',id:'checklist'},el('h2',{text:'✅ Checklist'}),el('p',{class:'intro',text:'Vink af na controle. Opgeslagen op dit apparaat. Gewijzigde controlepunten moeten opnieuw worden beoordeeld.'}));
  const pr=el('div',{class:'prog'},el('i')),pt=el('div',{class:'src'});cs.append(pr,pt);
  const ul=el('ul',{class:'check'});
  const upd=()=>{const n=g.checklist.filter(c=>CH[c.id]).length;pr.firstChild.style.width=(100*n/g.checklist.length)+'%';pt.textContent=n+' van '+g.checklist.length+' klaar'};
  g.checklist.forEach(c=>{const id='ck-'+c.id,cb=el('input',{type:'checkbox',id});cb.checked=!!CH[c.id];
   const lab=el('label',{for:id});if(c.urgent)lab.append(el('span',{class:'urg',text:'URGENT'}));lab.append(c.t);
-  const li=el('li',{class:CH[c.id]?'done':null},cb,lab);
-  cb.onchange=()=>{CH[c.id]=cb.checked;if(!cb.checked)delete CH[c.id];localStorage.setItem(CK,JSON.stringify(CH));li.classList.toggle('done',cb.checked);upd()};ul.append(li)});
- cs.append(ul);upd();M.append(cs);
+  lab.append(el('a',{class:'detail-link',href:'#'+c.sec,text:(c.phase||'Vóór vertrek')+' · Lees toelichting'}));
+  const li=el('li',{class:CH[c.id]?'done':null,'data-phase':c.phase||'Vóór vertrek'},cb,lab);
+  cb.onchange=()=>{CH[c.id]=cb.checked;remember(CK,CH);li.classList.toggle('done',cb.checked);upd()};ul.append(li)});
+ const filters=el('div',{class:'toolbar'}),select=el('select',{'aria-label':'Filter checklist op fase'});['Alles','Vóór vertrek','Laatste dagen','In Thailand'].forEach(x=>select.append(el('option',{value:x,text:x})));const only=el('input',{type:'checkbox',id:'only-open'}),onlyLabel=el('label',{for:'only-open'},only,' Alleen open');
+ const filter=()=>{Array.from(ul.children).forEach(li=>{li.hidden=(select.value!=='Alles'&&li.dataset.phase!==select.value)||(only.checked&&li.classList.contains('done'))})};select.onchange=filter;only.onchange=filter;ul.addEventListener('change',filter);filters.append(select,onlyLabel);cs.append(filters,ul);upd();M.append(cs);
  // tijdlijn
- const ts=el('section',{class:'card',id:'tijdlijn'},el('h2',{text:'🗓️ Tijdlijn'}),el('p',{class:'intro',text:'Grove planning in maanden, geen vaste data.'}));
+ const ts=el('section',{class:'card',id:'tijdlijn'},el('h2',{text:'🗓️ Tijdlijn'}),el('p',{class:'intro',text:'Relatieve planning voor ongeveer zes maanden totaal. Exacte data nog te bevestigen.'}));
  const ol=el('ol',{class:'tl'});g.timeline.forEach(t=>ol.append(el('li',{class:t.urgent?'u':null},el('b',{text:t.when}),t.t)));ts.append(ol);M.append(ts);
  // secties
  g.sections.forEach(s=>{const sec=el('section',{class:'card',id:s.id},el('h2',{text:(s.icon||'')+' '+s.title}));
   if(s.intro)sec.append(el('p',{class:'intro',text:s.intro}));
   if(s.link&&safeUrl(s.link.u))sec.append(el('a',{class:'btn villa',href:s.link.u,target:'_blank',rel:'noopener noreferrer',text:'🏡 '+s.link.l+' →'}));
   (s.groups||[]).forEach(gr=>{sec.append(el('h3',{text:gr.title}));const u=el('ul',{class:'items'});
-   gr.items.forEach(it=>u.append(el('li',{class:it.warn?'warn':null},el('span',{class:'who',text:'Aangevuld door Krabi Reisgids'}),el('div',{text:it.t}),srcs(it.src))));sec.append(u)});
+   gr.items.forEach(it=>u.append(el('li',{class:it.warn?'warn':null},el('span',{class:'who',text:it.src&&it.src.length?'Informatie met bron':'Praktisch actiepunt'}),el('div',{text:it.t}),srcs(it.src))));sec.append(u)});
   if(s.weather){sec.append(el('h3',{text:'Weer in Krabi (november – mei)'}));const tb=el('table');
    tb.append(el('tr',null,el('th',{text:'Maand'}),el('th',{text:'Max °C'}),el('th',{text:'Min °C'}),el('th',{text:'Regen mm'}),el('th',{text:'Regendagen'})));
    s.weather.rows.forEach(r=>tb.append(el('tr',null,...r.map(v=>el('td',{text:String(v).replace('.',',')})))));
@@ -109,8 +127,8 @@ function start(d){
   else{const tu=el('ul');mine.forEach(t=>{const li=el('li',null,el('span',{class:'who',text:'Van je vrouw (Instagram)'+(t.topic?' · '+t.topic:'')}));
     const meta=[t.account?'gedeelde post van '+t.account:(t.type||''),t.date||''].filter(Boolean).join(' · ');
     if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));if(meta)li.append(el('div',{class:'meta',text:meta}));li.append(tipBtn(t));tu.append(li)});tb.append(tu)}
-  sec.append(tb);M.append(sec)});
- M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Alleen voor ons gezin; niet delen.'}));
+  if(mine.length)sec.append(tb);if(s.id==='eerst-regelen'){sec.classList.add('priority');M.insertBefore(sec,cs)}else M.append(sec)});
+ M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Deze website is openbaar bereikbaar. Bewaar persoonlijke documenten privé. Regels en tarieven opnieuw controleren vóór gebruik.'}));
 }
 function fmt(s){try{return new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'long',year:'numeric'})}catch(e){return s}}
 load().then(start).catch(()=>{$('loading').textContent='De reisgids kon niet worden geladen. Controleer je internet en vernieuw de pagina.'});
