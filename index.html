@@ -25,7 +25,14 @@ ul.items{list-style:none;padding:0;margin:0}
 ul.items li{border-left:4px solid var(--g);background:var(--g2);padding:10px 12px;border-radius:0 10px 10px 0;margin:8px 0}
 ul.items li.warn{border-color:var(--o);background:var(--o2)}
 .who{font-size:13px;font-weight:600;color:var(--g);display:block;margin-bottom:2px}
-.src{font-size:14px;margin-top:6px;color:var(--m)}.src a{display:inline-block;padding:4px 0;margin-right:10px}
+.src{font-size:15px;margin-top:8px;color:var(--m);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.src a.bron{display:inline-flex;align-items:center;min-height:40px;padding:4px 0;color:#0b5cad;font-weight:600;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.meta{font-size:14px;color:var(--m);margin-top:6px}
+a.igbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:52px;margin-top:10px;padding:12px 16px;border-radius:12px;background:#c13584;color:#fff;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 2px 6px #c1358455}
+a.igbtn:active{transform:scale(.98)}a.igbtn .ic{font-size:20px;line-height:1}
+a.igbtn.ext{background:var(--g);box-shadow:none}
+.nolink{font-size:14px;color:#8a8f8d;margin-top:8px}
+@media(min-width:640px){a.igbtn{width:auto;display:inline-flex}}
 .unoff{font-size:12px;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:1px 6px;margin-left:4px;white-space:nowrap}
 .tips{margin-top:16px;border:2px dashed var(--p);border-radius:14px;padding:12px;background:var(--p2)}
 .tips h3{color:var(--p);margin:0 0 6px}.tips .empty{color:var(--m);font-size:16px;margin:0}
@@ -57,7 +64,13 @@ async function load(){const r=await fetch('data/gids.json?v='+Date.now(),{cache:
 function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const[k,v]of Object.entries(attrs)){if(v==null)continue;if(k==='class')n.className=v;else if(k==='text')n.textContent=v;else n.setAttribute(k,v)}for(const k of kids){if(k==null)continue;n.append(k)}return n}
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:null;
 function link(u,label){const s=safeUrl(u);return s?el('a',{href:s,target:'_blank',rel:'noopener noreferrer',text:label}):document.createTextNode(label)}
-function srcs(list){if(!list||!list.length)return null;const d=el('div',{class:'src'},'Bron: ');list.forEach(s=>{d.append(link(s.u,s.l));if(s.off===false)d.append(el('span',{class:'unoff',text:'niet-officiële bron'}))});return d}
+function srcs(list){if(!list||!list.length)return null;const d=el('div',{class:'src'});list.forEach(s=>{const u=safeUrl(s.u);const w=el('span');w.append(u?el('a',{class:'bron',href:u,target:'_blank',rel:'noopener noreferrer',text:'Bron: '+s.l}):document.createTextNode('Bron: '+s.l));if(s.off===false)w.append(el('span',{class:'unoff',text:'niet-officiële bron'}));d.append(w)});return d}
+const isIG=u=>{try{return /(^|\.)instagram\.com$/i.test(new URL(u).hostname)}catch(e){return false}};
+function tipBtn(t){const u=safeUrl(t.url);if(!u)return el('div',{class:'nolink',text:'Link niet gevonden'});
+ if(!isIG(u))return el('a',{class:'igbtn ext',href:u,target:'_blank',rel:'noopener noreferrer'},el('span',{class:'ic',text:'🔗'}),'Open link');
+ const m=(t.media||'').toLowerCase(),txt=((t.text||'')+' '+(t.title||'')).toLowerCase();
+ let label='Bekijk op Instagram';if(m==='video'||m==='reel'||/\bvideo\b|filmpje|\breel\b/.test(txt))label='Bekijk filmpje op Instagram';else if(m==='foto'||m==='post')label='Bekijk post op Instagram';
+ return el('a',{class:'igbtn',href:u,target:'_blank',rel:'noopener noreferrer','aria-label':label+(t.title?': '+t.title:'')},el('span',{class:'ic','aria-hidden':'true',text:'▶'}),label)}
 const CK='krabi-checklist';let CH;try{CH=JSON.parse(localStorage.getItem(CK))||{}}catch(e){CH={}}
 function start(d){
  $('loading').classList.add('hidden');$('app').classList.remove('hidden');
@@ -95,7 +108,7 @@ function start(d){
   if(!mine.length)tb.append(el('p',{class:'empty',text:'Nog geen tips voor dit onderdeel. Die komen hier zodra ze binnen zijn.'}));
   else{const tu=el('ul');mine.forEach(t=>{const li=el('li',null,el('span',{class:'who',text:'Van je vrouw (Instagram)'+(t.topic?' · '+t.topic:'')}));
     const meta=[t.account?'gedeelde post van '+t.account:(t.type||''),t.date||''].filter(Boolean).join(' · ');
-    if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));const sd=el('div',{class:'src'});if(meta)sd.append(meta+' ');if(safeUrl(t.url))sd.append(link(t.url,'Bekijk op Instagram'));else sd.append('(link niet gevonden)');li.append(sd);tu.append(li)});tb.append(tu)}
+    if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));if(meta)li.append(el('div',{class:'meta',text:meta}));li.append(tipBtn(t));tu.append(li)});tb.append(tu)}
   sec.append(tb);M.append(sec)});
  M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Alleen voor ons gezin; niet delen.'}));
 }
