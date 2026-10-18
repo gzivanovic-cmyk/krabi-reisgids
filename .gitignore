@@ -1,0 +1,4 @@
+private/
+.password
+*.plain.json
+__pycache__/

@@ -1,0 +1,121 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, max-age=0"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">
+<title>Reisgids</title>
+<style>
+:root{--g:#1f6f5c;--g2:#e6f2ee;--s:#faf6ef;--o:#c4561c;--o2:#fdebe0;--p:#8a3fa0;--p2:#f4e9f7;--t:#24302c;--m:#5f6b67;--b:#e4ddd0}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;font:18px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--s);color:var(--t)}
+a{color:var(--g);text-underline-offset:3px}button{font:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px 80px}
+#gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.gbox{background:#fff;border-radius:20px;padding:28px 22px;max-width:380px;width:100%;box-shadow:0 4px 24px #0001;text-align:center}
+.gbox h1{font-size:24px;margin:0 0 6px}.gbox p{color:var(--m);margin:0 0 18px}
+input[type=password]{width:100%;font-size:18px;padding:14px 16px;border:2px solid var(--b);border-radius:12px;margin-bottom:12px}
+input[type=password]:focus{outline:none;border-color:var(--g)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 20px;border:0;border-radius:12px;background:var(--g);color:#fff;font-weight:600;cursor:pointer;text-decoration:none;width:100%}
+.btn.sec{background:#fff;color:var(--g);border:2px solid var(--g)}
+#lerr{color:var(--o);min-height:24px;margin-top:10px;font-size:16px}
+header.top{position:sticky;top:0;z-index:5;background:var(--s);border-bottom:1px solid var(--b)}
+header.top .wrap{display:flex;align-items:center;gap:10px;padding:10px 16px}
+header.top b{flex:1;font-size:18px}
+#logout{min-height:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:15px}
+h1.hero{font-size:28px;margin:22px 0 4px}.sub{color:var(--m);margin:0 0 16px;font-size:16px}
+nav.toc{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 8px}
+nav.toc a{display:flex;align-items:center;gap:8px;min-height:56px;padding:10px 14px;background:#fff;border:1px solid var(--b);border-radius:14px;text-decoration:none;color:var(--t);font-weight:600;font-size:16px}
+.legend{background:#fff;border:1px solid var(--b);border-radius:14px;padding:12px 14px;margin:14px 0;font-size:15px}
+.legend div{display:flex;align-items:center;gap:8px;margin:4px 0}
+.dot{display:inline-block;width:14px;height:14px;border-radius:4px;flex:none}.dot.w{background:var(--p)}.dot.r{background:var(--g)}
+section.card{background:#fff;border:1px solid var(--b);border-radius:18px;padding:18px 16px;margin:18px 0}
+section.card>h2{margin:0 0 4px;font-size:24px}.intro{color:var(--m);margin:0 0 10px}
+h3{font-size:19px;margin:18px 0 6px;color:var(--g)}
+ul.items{list-style:none;padding:0;margin:0}
+ul.items li{border-left:4px solid var(--g);background:var(--g2);padding:10px 12px;border-radius:0 10px 10px 0;margin:8px 0}
+ul.items li.warn{border-color:var(--o);background:var(--o2)}
+.who{font-size:13px;font-weight:600;color:var(--g);display:block;margin-bottom:2px}
+.src{font-size:14px;margin-top:6px;color:var(--m)}.src a{display:inline-block;padding:4px 0;margin-right:10px}
+.unoff{font-size:12px;background:#fff3cd;color:#7a5b00;border-radius:6px;padding:1px 6px;margin-left:4px;white-space:nowrap}
+.tips{margin-top:16px;border:2px dashed var(--p);border-radius:14px;padding:12px;background:var(--p2)}
+.tips h3{color:var(--p);margin:0 0 6px}.tips .empty{color:var(--m);font-size:16px;margin:0}
+.tips ul{list-style:none;padding:0;margin:0}.tips li{background:#fff;border-left:4px solid var(--p);border-radius:0 10px 10px 0;padding:10px 12px;margin:8px 0}
+.tips .who{color:var(--p)}
+.villa{display:block;margin:12px 0;font-size:19px;min-height:60px}
+.check li{display:flex;gap:12px;align-items:flex-start;padding:10px 4px;border-bottom:1px solid var(--b)}
+.check{list-style:none;padding:0;margin:0}
+.check input{width:28px;height:28px;flex:none;margin-top:2px;accent-color:var(--g)}
+.check label{flex:1;cursor:pointer}.check li.done label{color:var(--m);text-decoration:line-through}
+.urg{display:inline-block;background:var(--o);color:#fff;font-size:13px;font-weight:700;border-radius:6px;padding:1px 8px;margin-right:6px}
+.prog{height:10px;background:var(--b);border-radius:6px;overflow:hidden;margin:8px 0 4px}.prog i{display:block;height:100%;background:var(--g);width:0}
+ol.tl{list-style:none;padding:0;margin:0;border-left:3px solid var(--g);margin-left:8px}
+ol.tl li{position:relative;padding:4px 0 14px 18px}ol.tl li:before{content:"";position:absolute;left:-9px;top:10px;width:15px;height:15px;border-radius:50%;background:#fff;border:3px solid var(--g)}
+ol.tl li.u:before{border-color:var(--o);background:var(--o)}ol.tl b{display:block}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;text-align:left;border-bottom:1px solid var(--b)}th{color:var(--m);font-weight:600}
+.foot{color:var(--m);font-size:14px;text-align:center;margin-top:24px}
+.hidden{display:none}
+@media(min-width:640px){nav.toc{grid-template-columns:1fr 1fr 1fr}}
+</style></head><body>
+<div id="gate"><form class="gbox" id="lf" autocomplete="on">
+<h1>🌴 Reisgids</h1><p>Vul het wachtwoord in.</p>
+<input type="text" name="username" value="reisgids" autocomplete="username" hidden>
+<input type="password" id="pw" placeholder="Wachtwoord" autocomplete="current-password" aria-label="Wachtwoord" required>
+<button class="btn" id="lb" type="submit">Openen</button><div id="lerr" role="alert"></div></form></div>
+<div id="app" class="hidden">
+<header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b><button id="logout" type="button">Uitloggen</button></div></header>
+<main class="wrap" id="main"></main></div>
+<script>
+const $=id=>document.getElementById(id);
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function decrypt(pw){const r=await fetch('data/gids.enc?'+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('net');const e=await r.json();
+ const km=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveKey']);
+ const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(e.salt),iterations:e.iter,hash:'SHA-256'},km,{name:'AES-GCM',length:256},false,['decrypt']);
+ return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(e.iv)},key,b64(e.ct))))}
+$('lf').onsubmit=async ev=>{ev.preventDefault();const pw=$('pw').value;$('lb').textContent='Openen…';$('lerr').textContent='';
+ try{const d=await decrypt(pw);sessionStorage.setItem('krabi-gids',pw);start(d)}catch(x){$('lerr').textContent=x.message==='net'?'De gegevens konden niet worden geladen.':'Onjuist wachtwoord.';$('lb').textContent='Openen'}};
+$('logout').onclick=()=>{sessionStorage.removeItem('krabi-gids');location.reload()};
+// veilige DOM-helpers (geen innerHTML met data)
+function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const[k,v]of Object.entries(attrs)){if(v==null)continue;if(k==='class')n.className=v;else if(k==='text')n.textContent=v;else n.setAttribute(k,v)}for(const k of kids){if(k==null)continue;n.append(k)}return n}
+const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:null;
+function link(u,label){const s=safeUrl(u);return s?el('a',{href:s,target:'_blank',rel:'noopener noreferrer',text:label}):document.createTextNode(label)}
+function srcs(list){if(!list||!list.length)return null;const d=el('div',{class:'src'},'Bron: ');list.forEach(s=>{d.append(link(s.u,s.l));if(s.off===false)d.append(el('span',{class:'unoff',text:'niet-officiële bron'}))});return d}
+const CK='krabi-checklist';let CH;try{CH=JSON.parse(localStorage.getItem(CK))||{}}catch(e){CH={}}
+function start(d){
+ $('gate').classList.add('hidden');$('app').classList.remove('hidden');$('pw').value='';
+ const g=d.gids,tips=d.tips||[],M=$('main');M.textContent='';
+ M.append(el('h1',{class:'hero',text:g.title}),el('p',{class:'sub',text:'Rustig overzicht voor het hele gezin. Feiten gecontroleerd op '+fmt(g.checked)+'. Regels kunnen veranderen: kijk vlak voor vertrek nog even op de officiële sites.'}));
+ const lg=el('div',{class:'legend'},el('div',null,el('span',{class:'dot w'}),el('span',{text:'Van je vrouw (Instagram)'})),el('div',null,el('span',{class:'dot r'}),el('span',{text:'Aangevuld door Krabi Reisgids, met bronlink'})),el('div',null,el('span',{class:'unoff',text:'niet-officiële bron'}),el('span',{text:' = handig, maar niet van een overheid of het bedrijf zelf'})));
+ M.append(lg);
+ const toc=el('nav',{class:'toc','aria-label':'Inhoud'});
+ toc.append(el('a',{href:'#checklist'},'✅ Checklist'),el('a',{href:'#tijdlijn'},'🗓️ Tijdlijn'));
+ g.sections.forEach(s=>toc.append(el('a',{href:'#'+s.id},(s.icon||'')+' '+s.title)));M.append(toc);
+ // checklist
+ const cs=el('section',{class:'card',id:'checklist'},el('h2',{text:'✅ Checklist'}),el('p',{class:'intro',text:'Vink af wat klaar is. Dit wordt op dit apparaat onthouden.'}));
+ const pr=el('div',{class:'prog'},el('i')),pt=el('div',{class:'src'});cs.append(pr,pt);
+ const ul=el('ul',{class:'check'});
+ const upd=()=>{const n=g.checklist.filter(c=>CH[c.id]).length;pr.firstChild.style.width=(100*n/g.checklist.length)+'%';pt.textContent=n+' van '+g.checklist.length+' klaar'};
+ g.checklist.forEach(c=>{const id='ck-'+c.id,cb=el('input',{type:'checkbox',id});cb.checked=!!CH[c.id];
+  const lab=el('label',{for:id});if(c.urgent)lab.append(el('span',{class:'urg',text:'URGENT'}));lab.append(c.t);
+  const li=el('li',{class:CH[c.id]?'done':null},cb,lab);
+  cb.onchange=()=>{CH[c.id]=cb.checked;if(!cb.checked)delete CH[c.id];localStorage.setItem(CK,JSON.stringify(CH));li.classList.toggle('done',cb.checked);upd()};ul.append(li)});
+ cs.append(ul);upd();M.append(cs);
+ // tijdlijn
+ const ts=el('section',{class:'card',id:'tijdlijn'},el('h2',{text:'🗓️ Tijdlijn'}),el('p',{class:'intro',text:'Grove planning in maanden, geen vaste data.'}));
+ const ol=el('ol',{class:'tl'});g.timeline.forEach(t=>ol.append(el('li',{class:t.urgent?'u':null},el('b',{text:t.when}),t.t)));ts.append(ol);M.append(ts);
+ // secties
+ g.sections.forEach(s=>{const sec=el('section',{class:'card',id:s.id},el('h2',{text:(s.icon||'')+' '+s.title}));
+  if(s.intro)sec.append(el('p',{class:'intro',text:s.intro}));
+  if(s.link&&safeUrl(s.link.u))sec.append(el('a',{class:'btn villa',href:s.link.u,target:'_blank',rel:'noopener noreferrer',text:'🏡 '+s.link.l+' →'}));
+  (s.groups||[]).forEach(gr=>{sec.append(el('h3',{text:gr.title}));const u=el('ul',{class:'items'});
+   gr.items.forEach(it=>u.append(el('li',{class:it.warn?'warn':null},el('span',{class:'who',text:'Aangevuld door Krabi Reisgids'}),el('div',{text:it.t}),srcs(it.src))));sec.append(u)});
+  if(s.weather){sec.append(el('h3',{text:'Weer in Krabi (november – mei)'}));const tb=el('table');
+   tb.append(el('tr',null,el('th',{text:'Maand'}),el('th',{text:'Max °C'}),el('th',{text:'Min °C'}),el('th',{text:'Regen mm'}),el('th',{text:'Regendagen'})));
+   s.weather.rows.forEach(r=>tb.append(el('tr',null,...r.map(v=>el('td',{text:String(v).replace('.',',')})))));
+   const ul2=el('ul',{class:'items'},el('li',null,el('span',{class:'who',text:'Aangevuld door Krabi Reisgids'}),el('div',{text:s.weather.note}),srcs(s.weather.src)));sec.append(el('div',{style:'overflow-x:auto'},tb),ul2)}
+  const mine=tips.filter(t=>t.section===s.id),tb=el('div',{class:'tips'},el('h3',{text:'💜 Tips van je vrouw'}));
+  if(!mine.length)tb.append(el('p',{class:'empty',text:'Nog geen tips voor dit onderdeel. Die komen hier zodra ze binnen zijn.'}));
+  else{const tu=el('ul');mine.forEach(t=>{const li=el('li',null,el('span',{class:'who',text:'Van je vrouw (Instagram)'+(t.type?' · '+t.type:'')+(t.topic?' · '+t.topic:'')}));
+    if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));if(safeUrl(t.url))li.append(el('div',{class:'src'},link(t.url,'Bekijk op Instagram / link')));tu.append(li)});tb.append(tu)}
+  sec.append(tb);M.append(sec)});
+ M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Alleen voor ons gezin; niet delen.'}));
+}
+function fmt(s){try{return new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'long',year:'numeric'})}catch(e){return s}}
+const saved=sessionStorage.getItem('krabi-gids');if(saved){$('lb').textContent='Openen…';decrypt(saved).then(start).catch(()=>{sessionStorage.removeItem('krabi-gids');$('lb').textContent='Openen'})}
+</script></body></html>
