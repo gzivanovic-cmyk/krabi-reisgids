@@ -1,25 +1,17 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, max-age=0"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">
-<title>Reisgids</title>
+<title>Krabi Reisgids</title><link rel="icon" href="data:,">
 <style>
 :root{--g:#1f6f5c;--g2:#e6f2ee;--s:#faf6ef;--o:#c4561c;--o2:#fdebe0;--p:#8a3fa0;--p2:#f4e9f7;--t:#24302c;--m:#5f6b67;--b:#e4ddd0}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:64px}
 body{margin:0;font:18px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--s);color:var(--t)}
 a{color:var(--g);text-underline-offset:3px}button{font:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:0 16px 80px}
-#gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
-.gbox{background:#fff;border-radius:20px;padding:28px 22px;max-width:380px;width:100%;box-shadow:0 4px 24px #0001;text-align:center}
-.gbox h1{font-size:24px;margin:0 0 6px}.gbox p{color:var(--m);margin:0 0 18px}
-input[type=password]{width:100%;font-size:18px;padding:14px 16px;border:2px solid var(--b);border-radius:12px;margin-bottom:12px}
-input[type=password]:focus{outline:none;border-color:var(--g)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 20px;border:0;border-radius:12px;background:var(--g);color:#fff;font-weight:600;cursor:pointer;text-decoration:none;width:100%}
 .btn.sec{background:#fff;color:var(--g);border:2px solid var(--g)}
-label.show{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin:-4px 0 6px;font-size:16px;cursor:pointer;color:var(--t)}label.show input{width:24px;height:24px;accent-color:var(--g)}.gbox p.hint{font-size:14px;margin:0 0 12px}
-#lerr{color:var(--o);min-height:24px;margin-top:10px;font-size:16px}
 header.top{position:sticky;top:0;z-index:5;background:var(--s);border-bottom:1px solid var(--b)}
 header.top .wrap{display:flex;align-items:center;gap:10px;padding:10px 16px}
 header.top b{flex:1;font-size:18px}
-#logout{min-height:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--b);background:#fff;cursor:pointer;font-size:15px}
 h1.hero{font-size:28px;margin:22px 0 4px}.sub{color:var(--m);margin:0 0 16px;font-size:16px}
 nav.toc{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 8px}
 nav.toc a{display:flex;align-items:center;gap:8px;min-height:56px;padding:10px 14px;background:#fff;border:1px solid var(--b);border-radius:14px;text-decoration:none;color:var(--t);font-weight:600;font-size:16px}
@@ -54,27 +46,13 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;t
 .hidden{display:none}
 @media(min-width:640px){nav.toc{grid-template-columns:1fr 1fr 1fr}}
 </style></head><body>
-<div id="gate"><form class="gbox" id="lf" autocomplete="on">
-<h1>🌴 Reisgids</h1><p>Vul het wachtwoord in.</p>
-<input type="text" name="username" value="reisgids" autocomplete="username" hidden>
-<input type="password" id="pw" placeholder="Wachtwoord" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text" aria-label="Wachtwoord" required>
-<label class="show"><input type="checkbox" id="showpw"> Toon wachtwoord</label>
-<p class="hint">Let op hoofdletters en kleine letters.</p>
-<button class="btn" id="lb" type="submit">Openen</button><div id="lerr" role="alert"></div></form></div>
+<div id="loading" class="wrap" style="padding-top:40px;text-align:center;color:var(--m)">Reisgids laden…</div>
 <div id="app" class="hidden">
-<header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b><button id="logout" type="button">Uitloggen</button></div></header>
+<header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b></div></header>
 <main class="wrap" id="main"></main></div>
 <script>
 const $=id=>document.getElementById(id);
-const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
-async function decrypt(pw){const r=await fetch('data/gids.enc?v='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});if(!r.ok)throw new Error('net');const e=await r.json();
- const km=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveKey']);
- const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(e.salt),iterations:e.iter,hash:'SHA-256'},km,{name:'AES-GCM',length:256},false,['decrypt']);
- return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(e.iv)},key,b64(e.ct))))}
-$('showpw').onchange=e=>{$('pw').type=e.target.checked?'text':'password'};
-$('lf').onsubmit=async ev=>{ev.preventDefault();const pw=$('pw').value.trim();$('lb').textContent='Openen…';$('lerr').textContent='';
- try{const d=await decrypt(pw);sessionStorage.setItem('krabi-gids',pw);start(d)}catch(x){sessionStorage.removeItem('krabi-gids');$('lerr').textContent=x.message==='net'?'De gegevens konden niet worden geladen. Controleer je internet en probeer opnieuw.':'Onjuist wachtwoord. Let op hoofdletters; tik op "Toon wachtwoord" om te controleren.';$('lb').textContent='Openen'}};
-$('logout').onclick=()=>{sessionStorage.removeItem('krabi-gids');location.reload()};
+async function load(){const r=await fetch('data/gids.json?v='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});if(!r.ok)throw new Error('net');return r.json()}
 // veilige DOM-helpers (geen innerHTML met data)
 function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const[k,v]of Object.entries(attrs)){if(v==null)continue;if(k==='class')n.className=v;else if(k==='text')n.textContent=v;else n.setAttribute(k,v)}for(const k of kids){if(k==null)continue;n.append(k)}return n}
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:null;
@@ -82,7 +60,7 @@ function link(u,label){const s=safeUrl(u);return s?el('a',{href:s,target:'_blank
 function srcs(list){if(!list||!list.length)return null;const d=el('div',{class:'src'},'Bron: ');list.forEach(s=>{d.append(link(s.u,s.l));if(s.off===false)d.append(el('span',{class:'unoff',text:'niet-officiële bron'}))});return d}
 const CK='krabi-checklist';let CH;try{CH=JSON.parse(localStorage.getItem(CK))||{}}catch(e){CH={}}
 function start(d){
- $('gate').classList.add('hidden');$('app').classList.remove('hidden');$('pw').value='';
+ $('loading').classList.add('hidden');$('app').classList.remove('hidden');
  const g=d.gids,tips=d.tips||[],M=$('main');M.textContent='';
  M.append(el('h1',{class:'hero',text:g.title}),el('p',{class:'sub',text:'Rustig overzicht voor het hele gezin. Feiten gecontroleerd op '+fmt(g.checked)+'. Regels kunnen veranderen: kijk vlak voor vertrek nog even op de officiële sites.'}));
  const lg=el('div',{class:'legend'},el('div',null,el('span',{class:'dot w'}),el('span',{text:'Van je vrouw (Instagram)'})),el('div',null,el('span',{class:'dot r'}),el('span',{text:'Aangevuld door Krabi Reisgids, met bronlink'})),el('div',null,el('span',{class:'unoff',text:'niet-officiële bron'}),el('span',{text:' = handig, maar niet van een overheid of het bedrijf zelf'})));
@@ -122,5 +100,5 @@ function start(d){
  M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Alleen voor ons gezin; niet delen.'}));
 }
 function fmt(s){try{return new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'long',year:'numeric'})}catch(e){return s}}
-const saved=sessionStorage.getItem('krabi-gids');if(saved){$('lb').textContent='Openen…';decrypt(saved).then(start).catch(()=>{sessionStorage.removeItem('krabi-gids');$('lb').textContent='Openen'})}
+load().then(start).catch(()=>{$('loading').textContent='De reisgids kon niet worden geladen. Controleer je internet en vernieuw de pagina.'});
 </script></body></html>

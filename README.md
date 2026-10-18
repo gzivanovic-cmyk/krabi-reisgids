@@ -1,2 +1,2 @@
 # Krabi Reisgids
-Afgeschermde reisgids (versleuteld AES-256-GCM, noindex). Geen platte gegevens in deze repository; inhoud staat alleen als ciphertext in data/gids.enc.
+Reisgids voor het gezin (geen wachtwoord, wel noindex en robots Disallow). Inhoud: data/gids.json, gebouwd door ./sync.sh uit private/ (niet in git).
