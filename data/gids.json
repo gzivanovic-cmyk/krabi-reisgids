@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T06:18:56+00:00",
+  "updated": "2026-10-18T06:24:26+00:00",
   "gids": {
     "title": "Zes maanden proefwonen in Krabi",
     "checked": "2026-10-18",
@@ -1693,12 +1693,14 @@
       "added": "2026-10-18"
     },
     {
-      "section": "activiteiten",
-      "text": "Strandleven met het gezin in Thailand. Kim: \"❤️ Hier gaan we ook heen wanneer we in Krabi zijn\"",
-      "url": "https://www.instagram.com/p/Deee3a3BREq/",
+      "section": "eten",
+      "title": "Kuan Som Saow Restaurant, Krabi",
+      "text": "\"Some restaurants in Thailand are straight out of fairytales\": Kuan Som Saow Restaurant in Krabi, een restaurant met uitzichtpunt. Kim: \"❤️ Hier gaan we ook heen wanneer we in Krabi zijn\"",
+      "url": "https://www.instagram.com/p/DebGs_5hrnJ/",
       "type": "post",
-      "topic": "strand met kinderen",
-      "date": "13 okt 2026",
+      "media": "video",
+      "topic": "restaurant met uitzicht",
+      "date": "13 okt 2026, 12:57",
       "account": "@wherenextfamily",
       "added": "2026-10-18"
     },
@@ -1738,12 +1740,14 @@
     {
       "section": "activiteiten",
       "title": "Sportclub in Krabi",
-      "text": "Gedeelde post van Voasis Valley Krabi (2e post van dit account; link niet gevonden). Kim: \"Sportclub in Krabi!\"",
+      "text": "Nieuwe jungle gym van Voasis tijdens de @on.roots-retreat: calisthenics, sporten in de natuur (#KrabiFitness). Kim: \"Sportclub in Krabi!\"",
       "type": "post",
       "topic": "sport",
-      "date": "15–17 okt 2026",
+      "date": "17 okt 2026, 9:43",
       "account": "@voasisvalleykrabi",
-      "added": "2026-10-18"
+      "added": "2026-10-18",
+      "url": "https://www.instagram.com/p/DQ_JqAuD0Bp/",
+      "media": "video"
     },
     {
       "section": "aankomst",
@@ -1798,6 +1802,65 @@
       "topic": "wellness / retreat",
       "date": "17 okt 2026",
       "account": "@voasisvalleykrabi",
+      "added": "2026-10-18"
+    },
+    {
+      "section": "activiteiten",
+      "text": "\"Not sure why the 9–5 was ever invented, but here's us on the beach in Thailand\" (#Thailand #IslandLife). Gezin op het strand; er staat geen plaats bij. Kim schreef er niets bij.",
+      "url": "https://www.instagram.com/p/Deee3a3BREq/",
+      "type": "post",
+      "media": "video",
+      "topic": "strand met kinderen",
+      "date": "15 okt 2026, 21:00",
+      "account": "@wherenextfamily",
+      "added": "2026-10-18"
+    },
+    {
+      "section": "praktisch",
+      "title": "Nederlands gezin naar Thailand verhuisd",
+      "text": "Nederlands gezin dat in januari alles verkocht en naar Thailand emigreerde (\"palm trees, pineapple fields\"). Hashtags: #leveninthailand #thailandmetkinderen #emigreren. Er staan geen prijzen of plaatsen bij. Kim schreef er niets bij.",
+      "url": "https://www.instagram.com/p/DciVbTAoPCT/",
+      "type": "post",
+      "media": "video",
+      "topic": "ander gezin in Thailand",
+      "date": "27 aug 2026, 20:27",
+      "account": "@thuisinthailand",
+      "added": "2026-10-18"
+    },
+    {
+      "section": "villa",
+      "title": "Phuket: hypotheek voor buitenlanders (maart 2026)",
+      "text": "Overig Thailand, niet Krabi. Volgens de post: Phuket, hypotheek voor buitenlanders via één projectontwikkelaar (eigen bank), tot 15 jaar tegen 6% per jaar. Gebouw C heeft 77 appartementen, klaar eind 2026, 1 slaapkamer vanaf $120.000. Oudere post uit maart 2026.",
+      "url": "https://www.instagram.com/p/DUI24jXEwwr/",
+      "type": "post",
+      "media": "video",
+      "topic": "overig Thailand · maart 2026",
+      "date": "22 mrt 2026",
+      "account": "@malina_thailand",
+      "added": "2026-10-18"
+    },
+    {
+      "section": "villa",
+      "title": "Rayong: koop- en huurprijzen (maart 2026)",
+      "text": "Overig Thailand, niet Krabi. Koop- en huurprijzen in een dorp in Rayong; de bedragen staan in de video. Oudere post uit maart 2026.",
+      "url": "https://www.instagram.com/p/DUXzn0mE-tw/",
+      "type": "post",
+      "media": "video",
+      "topic": "overig Thailand · maart 2026",
+      "date": "23 mrt 2026",
+      "account": "@joeinthailand1",
+      "added": "2026-10-18"
+    },
+    {
+      "section": "praktisch",
+      "title": "Isaan: tekort aan brandstof (maart 2026)",
+      "text": "Overig Thailand, niet Krabi. Op weg naar Isaan; bij tankstations was er een tekort aan brandstof. Oudere post uit maart 2026; check de actuele situatie zelf.",
+      "url": "https://www.instagram.com/p/DWLc_udTI_J/",
+      "type": "post",
+      "media": "video",
+      "topic": "overig Thailand · maart 2026",
+      "date": "22 mrt 2026, 20:04",
+      "account": "@leveninthailand",
       "added": "2026-10-18"
     }
   ]
