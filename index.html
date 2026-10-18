@@ -14,6 +14,7 @@ input[type=password]{width:100%;font-size:18px;padding:14px 16px;border:2px soli
 input[type=password]:focus{outline:none;border-color:var(--g)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 20px;border:0;border-radius:12px;background:var(--g);color:#fff;font-weight:600;cursor:pointer;text-decoration:none;width:100%}
 .btn.sec{background:#fff;color:var(--g);border:2px solid var(--g)}
+label.show{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin:-4px 0 6px;font-size:16px;cursor:pointer;color:var(--t)}label.show input{width:24px;height:24px;accent-color:var(--g)}.gbox p.hint{font-size:14px;margin:0 0 12px}
 #lerr{color:var(--o);min-height:24px;margin-top:10px;font-size:16px}
 header.top{position:sticky;top:0;z-index:5;background:var(--s);border-bottom:1px solid var(--b)}
 header.top .wrap{display:flex;align-items:center;gap:10px;padding:10px 16px}
@@ -56,7 +57,9 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;t
 <div id="gate"><form class="gbox" id="lf" autocomplete="on">
 <h1>🌴 Reisgids</h1><p>Vul het wachtwoord in.</p>
 <input type="text" name="username" value="reisgids" autocomplete="username" hidden>
-<input type="password" id="pw" placeholder="Wachtwoord" autocomplete="current-password" aria-label="Wachtwoord" required>
+<input type="password" id="pw" placeholder="Wachtwoord" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text" aria-label="Wachtwoord" required>
+<label class="show"><input type="checkbox" id="showpw"> Toon wachtwoord</label>
+<p class="hint">Let op hoofdletters en kleine letters.</p>
 <button class="btn" id="lb" type="submit">Openen</button><div id="lerr" role="alert"></div></form></div>
 <div id="app" class="hidden">
 <header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b><button id="logout" type="button">Uitloggen</button></div></header>
@@ -64,12 +67,13 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;t
 <script>
 const $=id=>document.getElementById(id);
 const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
-async function decrypt(pw){const r=await fetch('data/gids.enc?'+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('net');const e=await r.json();
+async function decrypt(pw){const r=await fetch('data/gids.enc?v='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});if(!r.ok)throw new Error('net');const e=await r.json();
  const km=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveKey']);
  const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(e.salt),iterations:e.iter,hash:'SHA-256'},km,{name:'AES-GCM',length:256},false,['decrypt']);
  return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(e.iv)},key,b64(e.ct))))}
-$('lf').onsubmit=async ev=>{ev.preventDefault();const pw=$('pw').value;$('lb').textContent='Openen…';$('lerr').textContent='';
- try{const d=await decrypt(pw);sessionStorage.setItem('krabi-gids',pw);start(d)}catch(x){$('lerr').textContent=x.message==='net'?'De gegevens konden niet worden geladen.':'Onjuist wachtwoord.';$('lb').textContent='Openen'}};
+$('showpw').onchange=e=>{$('pw').type=e.target.checked?'text':'password'};
+$('lf').onsubmit=async ev=>{ev.preventDefault();const pw=$('pw').value.trim();$('lb').textContent='Openen…';$('lerr').textContent='';
+ try{const d=await decrypt(pw);sessionStorage.setItem('krabi-gids',pw);start(d)}catch(x){sessionStorage.removeItem('krabi-gids');$('lerr').textContent=x.message==='net'?'De gegevens konden niet worden geladen. Controleer je internet en probeer opnieuw.':'Onjuist wachtwoord. Let op hoofdletters; tik op "Toon wachtwoord" om te controleren.';$('lb').textContent='Openen'}};
 $('logout').onclick=()=>{sessionStorage.removeItem('krabi-gids');location.reload()};
 // veilige DOM-helpers (geen innerHTML met data)
 function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const[k,v]of Object.entries(attrs)){if(v==null)continue;if(k==='class')n.className=v;else if(k==='text')n.textContent=v;else n.setAttribute(k,v)}for(const k of kids){if(k==null)continue;n.append(k)}return n}
