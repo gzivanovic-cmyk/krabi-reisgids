@@ -1,0 +1,1184 @@
+{
+  "updated": "2026-10-18T06:18:56+00:00",
+  "gids": {
+    "title": "Filipijnen: wonen en op afstand werken met het gezin",
+    "checked": "2026-10-18",
+    "subtitle": "Plan voor minstens 6 maanden, naast of na Krabi.",
+    "sections": [
+      {
+        "id": "visum",
+        "icon": "🛂",
+        "title": "Visum & langer blijven",
+        "intro": "Goed nieuws: 6 maanden of langer kan met gewone verlengingen, voor jou, Kim en de kinderen. Stap voor stap:",
+        "groups": [
+          {
+            "title": "Stappenplan voor 6+ maanden",
+            "items": [
+              {
+                "t": "Stap 1 · Binnenkomen: met een Nederlands paspoort mag je 30 dagen zonder visum blijven. Je hebt een retour- of doorreisticket nodig en een paspoort dat nog minstens 6 maanden geldig is.",
+                "src": [
+                  {
+                    "u": "https://thehaguepe.dfa.gov.ph/index.php/visa/general-info-on-visas",
+                    "l": "Filipijnse ambassade Den Haag",
+                    "off": true
+                  },
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Stap 2 · eTravel: registreer gratis binnen 72 uur vóór aankomst op etravel.gov.ph. Je krijgt een QR-code. Pas op voor nepsites die geld vragen. NederlandWereldwijd zegt dat het bij aankomst én vertrek moet; de eTravel-FAQ noemt bij vertrek vooral Filipino's. Doe het voor de zekerheid beide keren.",
+                "src": [
+                  {
+                    "u": "https://etravel.gov.ph",
+                    "l": "eTravel (officieel)",
+                    "off": true
+                  },
+                  {
+                    "u": "https://etravel.gov.ph/en/frequently-asked-questions",
+                    "l": "eTravel FAQ",
+                    "off": true
+                  },
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Stap 3 · Na 30 dagen: vraag een visa waiver aan voor 29 dagen extra (samen 59 dagen). Daarna kun je verlengen met 1, 2 of 6 maanden. Vraag elke verlenging minstens 7 dagen vóór het einde aan, bij een BI-kantoor of online.",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/faqs/",
+                    "l": "Bureau of Immigration FAQ",
+                    "off": true
+                  },
+                  {
+                    "u": "https://e-services.immigration.gov.ph/",
+                    "l": "BI e-services (online verlengen)",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Of in één keer 6 maanden (LSVVE): ongeveer ₱11.500 per volwassene plus ₱100 voor de sticker. Voor een kind (tot en met 14 jaar) is het ongeveer ₱10.250; dat is een eigen optelling van de officiële onderdelen. Let op: de BI-pagina zegt dat de tarieven van 06-03-2014 zijn, dus ze kunnen nu anders zijn.",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/visas/visa-waiver/",
+                    "l": "BI visa waiver / tarieven",
+                    "off": true
+                  },
+                  {
+                    "u": "https://bangkokpe.dfa.gov.ph/visa/lsvve",
+                    "l": "Filipijnse ambassade Bangkok: LSVVE",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Stap 4 · Na 59 dagen: ieder gezinslid heeft een ACR I-Card nodig. Bij de LSVVE zit die er al bij. Bij het BI-kantoor Mactan-Cebu kost hij ongeveer ₱3.300 en duurt het 3–4 weken voor de kaart klaar is.",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/faqs/",
+                    "l": "Bureau of Immigration FAQ",
+                    "off": true
+                  },
+                  {
+                    "u": "https://immigration.gov.ph/wp-content/uploads/2023/11/MACTAN-CEBU.pdf",
+                    "l": "BI-kantoor Mactan-Cebu",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Stap 5 · Vertrekken na 6 maanden of meer: vraag minstens 72 uur vóór vertrek een ECC-A (vertrekpapier) aan. Het is 1 maand geldig en maar één keer te gebruiken.",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/faqs/",
+                    "l": "Bureau of Immigration FAQ",
+                    "off": true
+                  },
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Maximum: Nederlanders kunnen tot 36 maanden blijven, gerekend vanaf de laatste aankomst. Iemand anders mag de aanvraag voor je doen, met een volmacht (SPA).",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/faqs/",
+                    "l": "Bureau of Immigration FAQ",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Kinderen",
+            "items": [
+              {
+                "t": "Een WEG (₱3.120) is alleen nodig voor kinderen onder 15 die zonder ouder reizen en niet naar een ouder toe gaan. Reizen de kinderen met jou of Kim? Dan heb je geen WEG nodig.",
+                "src": [
+                  {
+                    "u": "https://immigration.gov.ph/services/waiver-for-exclusion-ground/",
+                    "l": "BI: WEG",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Digital Nomad Visa en andere visa",
+            "items": [
+              {
+                "t": "Het Digital Nomad Visa staat in Executive Order 86 (24 april 2025). De voorwaarden: 18+, je werkt op afstand met inkomen van buiten de Filipijnen, geen strafblad, een zorgverzekering, je land geeft Filipino's ook zo'n visum, en je werkt niet voor een Filipijnse werkgever.",
+                "src": [
+                  {
+                    "u": "https://lawphil.net/executive/execord/eo2025/eo_86_2025.html",
+                    "l": "Executive Order 86 (Lawphil)",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Je kunt het nog niet aanvragen: er zijn geen uitvoeringsregels, geen prijs, geen landenlijst en geen aanvraagknop. Er is ook geen regeling voor gezinsleden. Verwacht het niet voor dit plan.",
+                "src": [
+                  {
+                    "u": "https://liveinph.com",
+                    "l": "LiveInPH (gecheckt 15-10-2026)",
+                    "off": false
+                  },
+                  {
+                    "u": "https://thehaguepe.dfa.gov.ph",
+                    "l": "Filipijnse ambassade Den Haag",
+                    "off": true
+                  },
+                  {
+                    "u": "https://ttfc.law",
+                    "l": "ttfc.law",
+                    "off": false
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "De SRRV is een pensioenvisum: je moet een minimumleeftijd hebben (volgens LiveInPH 40 jaar) en geld storten. Voor 6 maanden werken is het niet logisch.",
+                "src": [
+                  {
+                    "u": "https://pra.gov.ph/srrv/",
+                    "l": "Philippine Retirement Authority",
+                    "off": true
+                  },
+                  {
+                    "u": "https://liveinph.com/srrv-philippines-retirement-visa-2026-process",
+                    "l": "LiveInPH SRRV",
+                    "off": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "werken",
+        "icon": "💻",
+        "title": "Werken op afstand & belasting",
+        "intro": "Alleen feiten, geen advies. Laat dit checken door een belastingadviseur (Nederland én Filipijnen).",
+        "groups": [
+          {
+            "title": "Wat weten we",
+            "items": [
+              {
+                "t": "Een werkvergunning (AEP) is bedoeld voor werk bij een werkgever in de Filipijnen.",
+                "src": [
+                  {
+                    "u": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71688",
+                    "l": "DOLE DO 146-15",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Een toeristenverblijf is officieel bedoeld voor toerisme of zaken. Er is nog geen werkend visum speciaal voor remote werkers.",
+                "src": [
+                  {
+                    "u": "https://thehaguepe.dfa.gov.ph/index.php/visa/general-info-on-visas",
+                    "l": "Filipijnse ambassade Den Haag",
+                    "off": true
+                  },
+                  {
+                    "u": "https://liveinph.com",
+                    "l": "LiveInPH (gecheckt 15-10-2026)",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Belasting: loon telt als inkomen uit het land waar je het werk doet.",
+                "src": [
+                  {
+                    "u": "https://taxsummaries.pwc.com/philippines/individual/income-determination",
+                    "l": "PwC Tax Summaries: inkomen",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Ben je in één kalenderjaar meer dan 180 dagen in de Filipijnen? Dan kun je gezien worden als 'non-resident alien engaged in trade or business', en dat kan belastingplicht in de Filipijnen geven. Valt je verblijf over twee kalenderjaren, dan telt elk jaar apart.",
+                "src": [
+                  {
+                    "u": "https://taxsummaries.pwc.com/philippines/individual/residence",
+                    "l": "PwC Tax Summaries: verblijf (02-07-2026)",
+                    "off": false
+                  }
+                ],
+                "warn": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "icon": "📶",
+        "title": "Internet & sim",
+        "groups": [
+          {
+            "title": "Snelheid",
+            "items": [
+              {
+                "t": "Augustus 2026: internet thuis (vast) gemiddeld 189 Mbit/s download en 180 Mbit/s upload. Mobiel 102 Mbit/s download en 12 Mbit/s upload.",
+                "src": [
+                  {
+                    "u": "https://www.speedtest.net/global-index/philippines",
+                    "l": "Ookla Speedtest Global Index",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Starlink: Residential ₱4.099 per maand, Roam ₱5.999 per maand (vanaf 18 juni 2026). Gemiddeld ongeveer 55 Mbit/s download. Handig als back-up op een eiland.",
+                "src": [
+                  {
+                    "u": "https://www.yugatech.com",
+                    "l": "Yugatech",
+                    "off": false
+                  },
+                  {
+                    "u": "https://www.philstar.com",
+                    "l": "Philstar / Newsbytes",
+                    "off": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Simkaart registreren (wet RA 11934)",
+            "items": [
+              {
+                "t": "Elke simkaart en eSIM moet geregistreerd worden, en dat is gratis. Toeristen hebben nodig: paspoort (met inreisstempel), bewijs van adres (hotelboeking of verklaring van de verhuurder) en een retour- of doorreisticket.",
+                "src": [
+                  {
+                    "u": "https://www.globe.com.ph/help/sim-registration-act",
+                    "l": "Globe SIM-registratie",
+                    "off": true
+                  },
+                  {
+                    "u": "https://blog.smart.com.ph/are-tourists-foreign-nationals-required-to-register-their-sim/",
+                    "l": "Smart",
+                    "off": true
+                  },
+                  {
+                    "u": "https://lawphil.net/statutes/repacts/ra2022/ra_11934_2022.html",
+                    "l": "RA 11934 (Lawphil)",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Een toeristen-sim werkt maar 30 dagen en wordt daarna uitgeschakeld. Met een ACR I-Card kun je registreren als langblijver. Sims van kinderen komen op naam van een ouder.",
+                "src": [
+                  {
+                    "u": "https://www.globe.com.ph/help/sim-registration-act",
+                    "l": "Globe SIM-registratie",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              }
+            ]
+          },
+          {
+            "title": "Stroom",
+            "items": [
+              {
+                "t": "Siargao: in december 2024 viel de stroom 14 dagen uit door een kapotte zeekabel. Daarna bleef het net instabiel. Vraag of je huis een generator heeft.",
+                "src": [
+                  {
+                    "u": "https://suroy.ph/how-to-get-to-siargao/",
+                    "l": "Suroy.ph Siargao",
+                    "off": false
+                  }
+                ],
+                "warn": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gebieden",
+        "icon": "🗺️",
+        "title": "Gebieden vergelijken",
+        "intro": "De voor- en nadelen zijn een samenvatting van de bronnen op deze pagina. Waar geen bron is gevonden, staat 'check zelf'.",
+        "tables": [
+          {
+            "title": "Overzicht",
+            "head": [
+              "Gebied",
+              "Pluspunten",
+              "Minpunten / let op"
+            ],
+            "rows": [
+              [
+                "Cebu / Mactan",
+                "Goede ziekenhuizen (Chong Hua); internationale school (CIS); BI-kantoor in Mactan voor de I-Card; veel vluchten, ook naar Siargao",
+                "Duurder en drukker (Numbeo)"
+              ],
+              [
+                "Dumaguete (Negros)",
+                "Ziekenhuis (SUMC); internationale school vlakbij (ONE, Dauin); boot naar Siquijor",
+                "Vulkaan Kanlaon ligt op hetzelfde eiland (reisadvies), maar niet in Dumaguete"
+              ],
+              [
+                "Siargao",
+                "Surfen; rustig eiland",
+                "Geen directe vluchten meer vanuit Manila (wel via Cebu of Clark); stroomstoringen; één van de natste regio's (PAGASA); geen groot ziekenhuis gevonden; 31 okt – 10 nov 2026 surfwedstrijd, dus erg druk (suroy.ph, onofficieel)"
+              ],
+              [
+                "Palawan: Puerto Princesa / El Nido / Coron",
+                "Prachtige natuur; ziekenhuis in Puerto Princesa",
+                "De Suluzee ten oosten van Palawan heeft code rood (reisadvies); kijk goed waar boottochten heen gaan"
+              ],
+              [
+                "Bohol / Panglao",
+                "Eiland vlak bij Cebu",
+                "Geen bronnen gevonden over zorg of scholen; check zelf"
+              ],
+              [
+                "Siquijor",
+                "Rustig",
+                "Geen lijnvluchten (vliegveld dicht voor verbouwing); alleen boten via Larena, onder meer vanuit Dumaguete, Cebu en Bohol"
+              ],
+              [
+                "Boracay",
+                "Strand, toeristisch",
+                "Geen vliegveld op het eiland: vlieg naar Caticlan en neem de boot (getnomadr, onofficieel)"
+              ],
+              [
+                "La Union (Luzon)",
+                "Surfen, dichter bij Manila",
+                "Geen betrouwbare bron gevonden over vervoer, zorg en scholen; check zelf"
+              ]
+            ],
+            "src": [
+              {
+                "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                "l": "Reisadvies NederlandWereldwijd",
+                "off": true
+              },
+              {
+                "u": "https://www.pagasa.dost.gov.ph/information/climate-philippines",
+                "l": "PAGASA klimaat",
+                "off": true
+              },
+              {
+                "u": "https://suroy.ph/how-to-get-to-siargao/",
+                "l": "Suroy.ph Siargao",
+                "off": false
+              },
+              {
+                "u": "https://www.numbeo.com/cost-of-living/in/Cebu",
+                "l": "Numbeo Cebu (okt 2026)",
+                "off": false
+              },
+              {
+                "u": "https://siquijorprovince.com/gateways/",
+                "l": "Provincie Siquijor: vervoer",
+                "off": true
+              },
+              {
+                "u": "https://getnomadr.com/cities/boracay/getting_there_away",
+                "l": "Getnomadr Boracay",
+                "off": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zorg",
+        "icon": "🏥",
+        "title": "Zorg & ziekenhuizen",
+        "groups": [
+          {
+            "title": "Vaccinaties en ziektes",
+            "items": [
+              {
+                "t": "Er zijn geen verplichte vaccinaties. Aanbevolen: DTP en hepatitis A. Persoonlijk advies over onder meer buiktyfus, dengue, hepatitis B, Japanse encefalitis, rabiës, BMR en tbc. In delen van het land is er malariarisico. Maak tijdig een afspraak bij de GGD.",
+                "src": [
+                  {
+                    "u": "https://www.ggdreisvaccinaties.nl/land/filipijnen",
+                    "l": "GGD Reisvaccinaties Filipijnen",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Muggen kunnen dengue, chikungunya en zika overbrengen. Gebruik DEET en een klamboe. Er bestaat een vaccin tegen dengue.",
+                "src": [
+                  {
+                    "u": "https://www.ggdreisvaccinaties.nl/land/filipijnen",
+                    "l": "GGD Reisvaccinaties Filipijnen",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Rabiës (hondsdolheid): krijg je een beet, krab of lik op een wondje, ga dan meteen naar een arts.",
+                "src": [
+                  {
+                    "u": "https://www.ggdreisvaccinaties.nl/land/filipijnen",
+                    "l": "GGD Reisvaccinaties Filipijnen",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              }
+            ]
+          },
+          {
+            "title": "Ziekenhuizen (officiële sites)",
+            "items": [
+              {
+                "t": "Buiten de grote steden is de zorg beperkt. Privéziekenhuizen vragen vaak eerst geld of een betaalgarantie van de verzekeraar.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Cebu: Chong Hua Hospital.",
+                "src": [
+                  {
+                    "u": "https://chonghua.com.ph/",
+                    "l": "Chong Hua Hospital",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Manila: St. Luke's Medical Center en Makati Medical Center.",
+                "src": [
+                  {
+                    "u": "https://www.stlukes.com.ph/",
+                    "l": "St. Luke's Medical Center",
+                    "off": true
+                  },
+                  {
+                    "u": "https://www.makatimed.net.ph/",
+                    "l": "Makati Medical Center",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Dumaguete: Silliman University Medical Center.",
+                "src": [
+                  {
+                    "u": "https://su.edu.ph/sumc/",
+                    "l": "Silliman University: SUMC",
+                    "off": true
+                  },
+                  {
+                    "u": "https://www.sumcfi.org/",
+                    "l": "SUMC Foundation",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Puerto Princesa (Palawan): Adventist Hospital Palawan.",
+                "src": [
+                  {
+                    "u": "https://adventisthealth.ph/location/adventist-hospital-palawan",
+                    "l": "Adventist Hospital Palawan",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Siargao: geen officiële site van een groot ziekenhuis gevonden. Reken erop dat je voor serieuze zorg naar Cebu moet vliegen. Dat is een eigen conclusie uit het reisadvies over zorg buiten de steden.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Nederlandse verzekering en gemeente",
+            "items": [
+              {
+                "t": "Ben je korter dan 1 jaar weg? Dan blijf je in Nederland verzekerd, maar zorg wordt vergoed tegen het Nederlandse tarief. Terugvervoer naar Nederland zit er niet in. Check of je reisverzekering een lange reis aan één stuk dekt.",
+                "src": [
+                  {
+                    "u": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/hoe-ben-ik-voor-zorg-verzekerd-als-ik-op-vakantie-ben-in-het-buitenland",
+                    "l": "Rijksoverheid zorgverzekering",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Krabi (ongeveer 6,5 maanden) plus de Filipijnen (6 maanden) is samen langer dan 1 jaar. Vraag je zorgverzekeraar vooraf wat dat betekent.",
+                "src": [
+                  {
+                    "u": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/hoe-ben-ik-voor-zorg-verzekerd-als-ik-op-vakantie-ben-in-het-buitenland",
+                    "l": "Rijksoverheid zorgverzekering",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Ben je binnen een jaar meer dan 8 maanden buiten Nederland, dan moet je je uitschrijven bij de gemeente (BRP). Met Krabi en de Filipijnen samen kom je daar waarschijnlijk boven.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/brp/wanneer-uitschrijven-gemeente",
+                    "l": "NederlandWereldwijd BRP",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Leerplicht: regel dit vooraf met de school en de leerplichtambtenaar.",
+                "src": [
+                  {
+                    "u": "https://www.rijksoverheid.nl/vraag-en-antwoord/leerplicht/leerplicht-kind-niet-naar-school",
+                    "l": "Rijksoverheid leerplicht",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scholen",
+        "icon": "🎒",
+        "title": "Scholen",
+        "intro": "Korte lijst, alleen officiële schoolsites. Vraag altijd of de kinderen voor een half jaar kunnen instromen, en welke papieren de school wil.",
+        "groups": [
+          {
+            "title": "Internationale scholen",
+            "items": [
+              {
+                "t": "Cebu: Cebu International School (IB-programma).",
+                "src": [
+                  {
+                    "u": "https://cis.edu.ph/",
+                    "l": "Cebu International School",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Manila (Taguig): The British School Manila (Brits curriculum).",
+                "src": [
+                  {
+                    "u": "https://www.britishschoolmanila.org/",
+                    "l": "The British School Manila",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Bij Dumaguete (Dauin): ONE International School.",
+                "src": [
+                  {
+                    "u": "https://oneinternationalschool.edu.ph/welcome/",
+                    "l": "ONE International School",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Siargao: geen echte internationale school met een officiële site gevonden.",
+                "src": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kosten",
+        "icon": "💶",
+        "title": "Kosten",
+        "groups": [
+          {
+            "title": "Geld",
+            "items": [
+              {
+                "t": "De munt is de Filipijnse peso (PHP, ₱). Reken op ongeveer ₱250 extra per opname met een buitenlandse pas; bij BPI wordt soms ₱200 genoemd. Kies altijd 'afrekenen in PHP', niet in euro, en lees het bedrag op het scherm.",
+                "src": [
+                  {
+                    "u": "https://liveinph.com/atm-fees-cebu-withdrawal-limits-2026",
+                    "l": "LiveInPH pinkosten",
+                    "off": false
+                  },
+                  {
+                    "u": "https://www.philippinestourism.org/money-in-the-philippines/",
+                    "l": "Philippinestourism.org",
+                    "off": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Kosten in Cebu (door gebruikers ingevuld, oktober 2026)",
+            "items": [
+              {
+                "t": "Gezin van 4, zonder huur: ongeveer ₱121.500 per maand (ongeveer $1.929).",
+                "src": [
+                  {
+                    "u": "https://www.numbeo.com/cost-of-living/in/Cebu",
+                    "l": "Numbeo Cebu (okt 2026)",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Huur van 3 slaapkamers: ongeveer ₱39.400 buiten het centrum (₱25.000–65.000) of ₱67.000 in het centrum (₱50.000–100.000). Gas, water en licht ongeveer ₱7.600, internet ongeveer ₱1.750.",
+                "src": [
+                  {
+                    "u": "https://www.numbeo.com/cost-of-living/in/Cebu",
+                    "l": "Numbeo Cebu (okt 2026)",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Internationale basisschool: gemiddeld ongeveer ₱503.000 per kind per jaar (₱250.000–1.400.000).",
+                "src": [
+                  {
+                    "u": "https://www.numbeo.com/cost-of-living/in/Cebu",
+                    "l": "Numbeo Cebu (okt 2026)",
+                    "off": false
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Uit eten: een simpel restaurant ongeveer ₱190; voor 2 personen in een middenklasse restaurant ongeveer ₱1.500.",
+                "src": [
+                  {
+                    "u": "https://www.numbeo.com/cost-of-living/in/Cebu",
+                    "l": "Numbeo Cebu (okt 2026)",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Voor andere eilanden is geen betrouwbare bron per eiland gevonden.",
+                "src": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veiligheid",
+        "icon": "🛡️",
+        "title": "Veiligheid & reisadvies",
+        "groups": [
+          {
+            "title": "Kleurcodes",
+            "items": [
+              {
+                "t": "Rood (niet reizen): het westen van Mindanao (Zamboanga-schiereiland, Misamis Occidental, Lanao del Norte, Soccsksargen, ARMM), de Sulu-eilanden (Basilan, Sulu, Tawi Tawi) en het water van de Suluzee tussen Zamboanga, Palawan en Maleisië. De Tubbataha-riffen zijn een uitzondering.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Geel: de rest van het land, ook Cebu, Bohol, Palawan (het land zelf), Siargao, Dumaguete, Siquijor, Boracay, La Union en Manila.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Let op",
+            "items": [
+              {
+                "t": "Natuur: tropische stormen van juni tot november, aardbevingen en tsunami's. Rond de actieve vulkanen Bulusan, Kanlaon (Negros), Mayon en Taal gelden verboden zones van 2–6 km.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Op zee: veerboten zijn soms onveilig en er zijn piraten, vooral in de Sulu- en Celebeszee. Wees extra voorzichtig bij boottochten tussen eilanden.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Criminaliteit: let op zakkenrollers. Mensen worden soms in bars en taxi's gedrogeerd. Neem alleen een geregistreerde taxi met meter.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Vanaf 16 jaar moet je altijd je paspoort bij je hebben. Met een internationaal rijbewijs mag je maximaal 90 dagen rijden; daarna heb je een Filipijns rijbewijs nodig.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weer",
+        "icon": "🌦️",
+        "title": "Weer & beste periode",
+        "intro": "Let op: juni tot november is het regen- en tyfoonseizoen. De villa in Krabi loopt tot ongeveer juni 2027, dus een verblijf daarna valt grotendeels in dit seizoen.",
+        "tables": [
+          {
+            "title": "Seizoenen",
+            "head": [
+              "Maand",
+              "Seizoen",
+              "Opmerking"
+            ],
+            "rows": [
+              [
+                "dec – feb",
+                "Koel en droog",
+                "Prettigste periode"
+              ],
+              [
+                "mrt – mei",
+                "Heet en droog",
+                "Mei is het warmst; benauwd"
+              ],
+              [
+                "jun – nov",
+                "Regen",
+                "Ook tropische stormen en tyfoons"
+              ]
+            ],
+            "src": [
+              {
+                "u": "https://www.pagasa.dost.gov.ph/information/climate-philippines",
+                "l": "PAGASA klimaat",
+                "off": true
+              },
+              {
+                "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                "l": "Reisadvies NederlandWereldwijd",
+                "off": true
+              }
+            ]
+          }
+        ],
+        "groups": [
+          {
+            "title": "Meer over het weer",
+            "items": [
+              {
+                "t": "Gemiddeld is het 26,6 °C. Januari is het koelst (25,5 °C), mei het warmst (28,3 °C). Het maakt weinig uit of je in het noorden of zuiden zit. De luchtvochtigheid is 71% (maart) tot 85% (september).",
+                "src": [
+                  {
+                    "u": "https://www.pagasa.dost.gov.ph/information/climate-philippines",
+                    "l": "PAGASA klimaat",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Het natst zijn Baguio, Oost-Samar en Oost-Surigao, de regio van Siargao. Tyfoons trekken meestal naar het noordwesten, zodat Mindanao meestal gespaard blijft.",
+                "src": [
+                  {
+                    "u": "https://www.pagasa.dost.gov.ph/information/climate-philippines",
+                    "l": "PAGASA klimaat",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Siargao: het rustigste water is ongeveer maart–mei. De beste surf is september–november, en dat is ook tyfoonseizoen.",
+                "src": [
+                  {
+                    "u": "https://suroy.ph/how-to-get-to-siargao/",
+                    "l": "Suroy.ph Siargao",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Actuele tyfoonwaarschuwingen staan bij PAGASA.",
+                "src": [
+                  {
+                    "u": "https://www.pagasa.dost.gov.ph/climate/tropical-cyclone-information",
+                    "l": "PAGASA tyfooninfo (actueel)",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vluchten",
+        "icon": "✈️",
+        "title": "Vluchten",
+        "intro": "Gecheckt op 18-10-2026 via een niet-officiële site. Kijk altijd bij de luchtvaartmaatschappij zelf.",
+        "groups": [
+          {
+            "title": "Routes",
+            "items": [
+              {
+                "t": "Krabi → Manila: geen directe vlucht. Je stapt over in Bangkok (Don Mueang of Suvarnabhumi), Kuala Lumpur of Singapore. Vliegtijd vanaf ongeveer 5 uur, zonder overstaptijd.",
+                "src": [
+                  {
+                    "u": "https://www.flightconnections.com/flights-from-kbv-to-mnl",
+                    "l": "Flightconnections Krabi–Manila",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Phuket → Manila: geen directe vlucht. Je stapt over in onder meer Bangkok, Ho Chi Minh-stad, Kuala Lumpur of Singapore.",
+                "src": [
+                  {
+                    "u": "https://www.flightconnections.com/flights-from-hkt-to-mnl",
+                    "l": "Flightconnections Phuket–Manila",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Bangkok (BKK) → Manila: wel direct, met Cebu Pacific, Philippine Airlines en Thai Airways. Ongeveer 30 vluchten per week, ongeveer 3 uur 45 minuten.",
+                "src": [
+                  {
+                    "u": "https://www.flightconnections.com/flights-from-bkk-to-mnl",
+                    "l": "Flightconnections Bangkok–Manila",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Amsterdam → Manila: geen directe vlucht. Je stapt één keer over, bijvoorbeeld in Bangkok, Hongkong, Istanbul, Dubai, Doha of Taipei. 13,5 tot 16,5 uur vliegen, zonder overstaptijd.",
+                "src": [
+                  {
+                    "u": "https://www.flightconnections.com/flights-from-ams-to-mnl",
+                    "l": "Flightconnections Amsterdam–Manila",
+                    "off": false
+                  }
+                ]
+              },
+              {
+                "t": "Naar Siargao: vanuit Cebu (ongeveer 1 uur), Clark of Davao. Vanuit Manila (NAIA) is er geen directe vlucht meer.",
+                "src": [
+                  {
+                    "u": "https://suroy.ph/how-to-get-to-siargao/",
+                    "l": "Suroy.ph Siargao",
+                    "off": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nood",
+        "icon": "🚨",
+        "title": "Noodnummers & ambassade",
+        "groups": [
+          {
+            "title": "In nood",
+            "items": [
+              {
+                "t": "Noodnummer (ambulance en brandweer): 911. Politie: 117.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/reisadvies/filipijnen",
+                    "l": "Reisadvies NederlandWereldwijd",
+                    "off": true
+                  }
+                ],
+                "warn": true
+              },
+              {
+                "t": "Altijd bereikbaar (24/7): +31 247 247 247, of WhatsApp +31 857 737 400 (alleen berichten).",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/filipijnen/ambassade-manilla",
+                    "l": "Ambassade Manilla (NederlandWereldwijd)",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Nederlandse ambassade in Manilla",
+            "items": [
+              {
+                "t": "30ste verdieping, Ayala Triangle Gardens Tower 2, 1226 Paseo de Roxas, Makati City. Telefoon +63 2 8786 6666. Alleen op afspraak: ma–do 9.00–14.30, vr 9.00–12.00.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/filipijnen/ambassade-manilla",
+                    "l": "Ambassade Manilla (NederlandWereldwijd)",
+                    "off": true
+                  }
+                ]
+              },
+              {
+                "t": "Gesloten in 2026 onder meer op 2 november, 16–19 november, 30 november, 8 december, 24–25 december en 28–31 december.",
+                "src": [
+                  {
+                    "u": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/filipijnen/ambassade-manilla",
+                    "l": "Ambassade Manilla (NederlandWereldwijd)",
+                    "off": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tips-kim",
+        "icon": "💜",
+        "title": "Tips van Kim",
+        "intro": "Instagram-posts die Kim naar Goran stuurde (27 september 2026). Ideeën en dromen, geen gecontroleerde informatie."
+      }
+    ],
+    "checklist": [
+      {
+        "id": "pp",
+        "t": "Paspoorten van alle 4 gezinsleden: nog minstens 6 maanden geldig bij aankomst"
+      },
+      {
+        "id": "ticket",
+        "t": "Doorreis- of retourticket regelen (verplicht bij binnenkomst)"
+      },
+      {
+        "id": "etravel",
+        "t": "eTravel invullen voor iedereen, binnen 72 uur vóór aankomst (alleen via etravel.gov.ph)"
+      },
+      {
+        "id": "ggd",
+        "t": "Afspraak maken bij de GGD voor vaccinatieadvies"
+      },
+      {
+        "id": "verz",
+        "t": "Reisverzekering checken: dekt die een lange reis aan één stuk?"
+      },
+      {
+        "id": "zvw",
+        "t": "Zorgverzekeraar bellen: Krabi + Filipijnen samen is langer dan 1 jaar",
+        "urgent": true
+      },
+      {
+        "id": "brp",
+        "t": "Nagaan of we ons moeten uitschrijven bij de gemeente (meer dan 8 maanden weg)"
+      },
+      {
+        "id": "leer",
+        "t": "School en leerplichtambtenaar informeren"
+      },
+      {
+        "id": "tax",
+        "t": "Belastingadviseur vragen over werken op afstand (meer dan 180 dagen per kalenderjaar)",
+        "urgent": true
+      },
+      {
+        "id": "school",
+        "t": "Scholen mailen: kan instromen voor een half jaar, en welke papieren zijn nodig?"
+      },
+      {
+        "id": "verleng",
+        "t": "Ter plekke: verlenging of LSVVE minstens 7 dagen vóór het einde van de 30 dagen aanvragen"
+      },
+      {
+        "id": "acr",
+        "t": "ACR I-Card voor iedereen (na 59 dagen; zit bij de LSVVE)"
+      },
+      {
+        "id": "sim",
+        "t": "Simkaart registreren (toeristen-sim werkt maar 30 dagen)"
+      },
+      {
+        "id": "stroom",
+        "t": "Bij huur vragen: is er een generator en een back-up voor internet?"
+      },
+      {
+        "id": "ecc",
+        "t": "ECC-A aanvragen minstens 72 uur vóór vertrek (na 6+ maanden)"
+      }
+    ]
+  },
+  "tips": [
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Balabac, Palawan",
+      "text": "4 dagen / 3 nachten in Balabac (zuidelijk Palawan, 'de Malediven van de Filipijnen'). Reis: 5–6 uur met een busje vanaf Puerto Princesa (vertrek 3–4 uur 's nachts) en 1 uur met de boot. Tour bij @balabac_beachresort, inclusief vervoer, verblijf, alle maaltijden, eilandhoppen/snorkelen, gids en entree. Basic Mini Bungalow (gedeelde badkamer, ventilator, wifi). Hoogtepunten: Onok Island, lagunes, rif, zandbanken en zeesterren. Tips uit de post: heel afgelegen en afhankelijk van het weer; neem contant geld, zonnebrand en dry bags mee. Prijs: ₱33.000 voor 2 personen + ₱2.000 brandstoftoeslag (ongeveer €490 voor 2). Kim schreef er niets bij.",
+      "url": "https://www.instagram.com/p/DYzqdqcDOPH/",
+      "type": "post",
+      "topic": "eiland / tour",
+      "date": "27 sep 2026, 2:51",
+      "account": "@barefoot_travelling",
+      "media": "foto",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Kamer-tour, El Nido",
+      "text": "\"A little tour of our room in El Nido\": Cauayan Boutique Private Island, El Nido, Palawan. In de caption staat geen prijs. Kim schreef er niets bij.",
+      "url": "https://www.instagram.com/p/DYuTnrSxY0T/",
+      "type": "reel",
+      "topic": "verblijf",
+      "date": "27 sep 2026",
+      "account": "@meaowjem",
+      "media": "video",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Strandlandgoed Busuanga / Coron",
+      "text": "Strandlandgoed van 255.600 sq ft voor $2,5 miljoen (€2,2 miljoen), Ocam Ocam Beach, New Busuanga, ongeveer 1 uur van Coron Airport. Ongeveer 350 m strand, privébaaien, een strandhuis met 4 slaapkamers en een lagunezwembad van 25 m, personeelsverblijven, een rif voor de kust, vlak bij Black Island. In een reactie staat dat buitenlanders het huis wel kunnen kopen, maar de grond niet (huren/lease).",
+      "quote": "Omg",
+      "note": "Kims bericht 'Omg' staat direct na deze post; we gaan ervan uit dat het hierbij hoort.",
+      "url": "https://www.instagram.com/p/DdHQnmSS1uQ/",
+      "type": "reel",
+      "topic": "droomhuis",
+      "date": "27 sep 2026",
+      "account": "@philippineluxury",
+      "media": "video",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Miniloc Island Resort, El Nido",
+      "text": "Verblijf in Miniloc Island Resort, El Nido, met korting via Agoda-code OAWAGODA. Volgens de caption werkt de code ook voor Lagen, Pangulasian en Apulit (El Nido Resorts) en voor Boracay, Cebu, Bohol, Manila en Davao. Kim schreef er niets bij.",
+      "url": "https://www.instagram.com/p/DRkzG3IE_SX/",
+      "type": "reel",
+      "topic": "resort",
+      "date": "27 sep 2026",
+      "account": "@onearmedwanderer",
+      "media": "video",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Goedkope strandhuizen in Azië",
+      "text": "Huis aan het strand met huishoudhulp voor ongeveer $150 per week. Plaats 2 is de Filipijnen (Siquijor en zuid-Cebu): huis $300–350 per maand, lunch $2, samen ongeveer $135 per week. Plaats 3 is Sri Lanka ($120 per week). Plaats 1 wordt niet genoemd ('$90 week, watch to the end'). Kim schreef er niets bij.",
+      "note": "Let op: deze video is op Instagram gelabeld als AI-content.",
+      "url": "https://www.instagram.com/p/Dbs5UJAo84g/",
+      "type": "reel",
+      "topic": "wonen / kosten",
+      "date": "27 sep 2026",
+      "account": "@emilygracepicks",
+      "media": "video",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Busuanga, Palawan",
+      "text": "\"Paradise found in Busuanga, Palawan, Philippines\". Er staan geen prijzen of tips in.",
+      "note": "Kim heeft deze post geliket.",
+      "url": "https://www.instagram.com/p/DHqglATzCpx/",
+      "type": "reel",
+      "topic": "natuur",
+      "date": "27 sep 2026 (tussen 13:21 en 17:56)",
+      "account": "@warrencamitan",
+      "media": "video",
+      "added": "2026-10-18"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "title": "Privé-eiland bij Tablas, Romblon",
+      "text": "Privé-eiland van $1,3 miljoen bij Tablas Island, Romblon. Ongeveer 2,38 acre, 12 bestaande gebouwen (ongeveer 9.709 sq ft), witte stranden. Makelaar: @sothebysrealty_ph.",
+      "quote": "Koop deze voor ons lieverd!!",
+      "url": "https://www.instagram.com/p/DcEOEZoCI49/",
+      "type": "post",
+      "topic": "droomhuis",
+      "date": "27 sep 2026, 17:56",
+      "account": "@luxury",
+      "media": "foto",
+      "added": "2026-10-18"
+    }
+  ]
+}

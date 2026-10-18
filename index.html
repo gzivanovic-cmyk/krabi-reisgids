@@ -51,6 +51,8 @@ ol.tl li.u:before{border-color:var(--o);background:var(--o)}ol.tl b{display:bloc
 table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:8px 6px;text-align:left;border-bottom:1px solid var(--b)}th{color:var(--m);font-weight:600}
 .foot{color:var(--m);font-size:14px;text-align:center;margin-top:24px}
 .hidden{display:none}
+header.top a.ph{display:inline-flex;align-items:center;min-height:44px;padding:6px 12px;border-radius:10px;background:#0b5cad;color:#fff;font-weight:700;text-decoration:none;font-size:15px}
+@media print{header.top a.ph,a.btn.villa[href='filipijnen.html']{display:none!important}}
 @media(min-width:640px){nav.toc{grid-template-columns:1fr 1fr 1fr}}
 
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.toolbar button,.toolbar select{font:inherit;border:1px solid var(--b);background:#fff;border-radius:9px;padding:9px 12px;color:var(--g);cursor:pointer}
@@ -62,7 +64,7 @@ summary{cursor:pointer;font-weight:650;padding:8px 0}a:focus-visible,button:focu
 </style></head><body>
 <div id="loading" class="wrap" style="padding-top:40px;text-align:center;color:var(--m)">Reisgids laden…</div>
 <div id="app" class="hidden">
-<header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b></div></header>
+<header class="top"><div class="wrap"><b>🌴 Krabi Reisgids</b><a class="ph" href="filipijnen.html">🇵🇭 Filipijnen</a></div></header>
 <main class="wrap" id="main"></main></div>
 <script>
 const $=id=>document.getElementById(id);
@@ -86,6 +88,7 @@ function start(d){
  M.append(el('h1',{class:'hero',text:g.title}),el('p',{class:'sub',text:g.subtitle||'Praktisch overzicht voor het gezin.'}));
  const lg=el('div',{class:'legend'},el('div',null,el('span',{class:'dot w'}),el('span',{text:'Van je vrouw (Instagram)'})),el('div',null,el('span',{class:'dot r'}),el('span',{text:'Aangevuld door Krabi Reisgids, met bronlink'})),el('div',null,el('span',{class:'unoff',text:'niet-officiële bron'}),el('span',{text:' = handig, maar niet van een overheid of het bedrijf zelf'})));
  M.append(lg);
+ M.append(el('a',{class:'btn villa',href:'filipijnen.html',style:'background:#0b5cad'},'🇵🇭 Filipijnen: wonen & werken (6+ maanden) →'));
  const actions=el('div',{class:'toolbar'}),print=el('button',{type:'button',text:'Afdrukken / PDF'});print.onclick=()=>window.print();actions.append(el('a',{class:'btn',href:'#eerst-regelen',text:'Begin hier: eerst regelen'}),print);M.append(actions);
  const plan=el('details',{class:'card'});plan.append(el('summary',{text:'✍️ Ons persoonlijke overzicht invullen'}),el('p',{class:'intro',id:'save-status',text:'Alleen opgeslagen in deze browser, niet gedeeld of gesynchroniseerd. Geen paspoortnummers of medische gegevens invullen.'}));
  let P={};try{P=JSON.parse(localStorage.getItem('krabi-plan-v3'))||{}}catch(e){}
