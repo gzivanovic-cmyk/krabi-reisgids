@@ -4,7 +4,7 @@ const fs=require('fs'),crypto=require('crypto');
 const [,,gidsF,tipsF,outF,pwF]=process.argv;
 if(!gidsF||!tipsF||!outF||!pwF){console.error('Gebruik: node encrypt.js <gids.json> <tips.json> <uit.enc> <.password>');process.exit(1);}
 const pw=fs.readFileSync(pwF,'utf8').trim();
-if(pw.length<12){console.error('Wachtwoord te kort');process.exit(1);}
+if(pw.length<8){console.error("Wachtwoord te kort (min. 8 tekens)");process.exit(1);}
 const gids=JSON.parse(fs.readFileSync(gidsF,'utf8'));
 const tips=fs.existsSync(tipsF)?JSON.parse(fs.readFileSync(tipsF,'utf8')):{tips:[]};
 const okUrl=u=>!u||/^https?:\/\//i.test(u);

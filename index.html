@@ -111,8 +111,9 @@ function start(d){
    const ul2=el('ul',{class:'items'},el('li',null,el('span',{class:'who',text:'Aangevuld door Krabi Reisgids'}),el('div',{text:s.weather.note}),srcs(s.weather.src)));sec.append(el('div',{style:'overflow-x:auto'},tb),ul2)}
   const mine=tips.filter(t=>t.section===s.id),tb=el('div',{class:'tips'},el('h3',{text:'💜 Tips van je vrouw'}));
   if(!mine.length)tb.append(el('p',{class:'empty',text:'Nog geen tips voor dit onderdeel. Die komen hier zodra ze binnen zijn.'}));
-  else{const tu=el('ul');mine.forEach(t=>{const li=el('li',null,el('span',{class:'who',text:'Van je vrouw (Instagram)'+(t.type?' · '+t.type:'')+(t.topic?' · '+t.topic:'')}));
-    if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));if(safeUrl(t.url))li.append(el('div',{class:'src'},link(t.url,'Bekijk op Instagram / link')));tu.append(li)});tb.append(tu)}
+  else{const tu=el('ul');mine.forEach(t=>{const li=el('li',null,el('span',{class:'who',text:'Van je vrouw (Instagram)'+(t.topic?' · '+t.topic:'')}));
+    const meta=[t.account?'gedeelde post van '+t.account:(t.type||''),t.date||''].filter(Boolean).join(' · ');
+    if(t.title)li.append(el('b',{text:t.title}));li.append(el('div',{text:t.text}));const sd=el('div',{class:'src'});if(meta)sd.append(meta+' ');if(safeUrl(t.url))sd.append(link(t.url,'Bekijk op Instagram'));else sd.append('(link niet gevonden)');li.append(sd);tu.append(li)});tb.append(tu)}
   sec.append(tb);M.append(sec)});
  M.append(el('p',{class:'foot',text:'Laatst bijgewerkt: '+fmt(d.updated)+'. Alleen voor ons gezin; niet delen.'}));
 }
