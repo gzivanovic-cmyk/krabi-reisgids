@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:16:07+00:00",
+  "updated": "2026-10-23T17:05:03+00:00",
   "gids": {
     "title": "Zes maanden proefwonen in Krabi",
     "checked": "2026-10-18",
@@ -1972,6 +1972,18 @@
       "account": "@maritatravels",
       "media": "video",
       "added": "2026-10-21"
+    },
+    {
+      "section": "voor-vertrek",
+      "title": "Thailand geeft negatief reisadvies voor Europa",
+      "text": "Nieuwsreel van Leven in Thailand met de kop 'Thailand geeft negatief reisadvies voor Europa'. In het bijschrift staat alleen die kop; de uitleg zit in de video.",
+      "note": "Controleer het actuele reisadvies altijd zelf bij NederlandWereldwijd.",
+      "url": "https://www.instagram.com/leveninthailand/reel/Dezq316SzKY/",
+      "type": "reel",
+      "date": "23 okt 2026",
+      "account": "@leveninthailand",
+      "media": "video",
+      "added": "2026-10-23"
     }
   ]
 }
