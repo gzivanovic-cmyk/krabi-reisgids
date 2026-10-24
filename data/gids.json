@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T10:26:43+00:00",
+  "updated": "2026-10-24T11:26:37+00:00",
   "gids": {
     "title": "Zes maanden proefwonen in Krabi",
     "checked": "2026-10-18",
@@ -1984,6 +1984,17 @@
       "account": "@leveninthailand",
       "media": "video",
       "added": "2026-10-23"
+    },
+    {
+      "section": "de-reis",
+      "title": "Goedkoop vliegen met ChatGPT",
+      "text": "Reel met 7 vragen (prompts) die je in ChatGPT plakt om de goedkoopste vlucht, deals en fouttarieven, de goedkoopste reisdata, een hotel, goedkope activiteiten en eten en je totale reisbudget te vinden. De maker zegt dat ze €159 betaalde voor een vlucht van €1.190 (geen bewijs getoond).",
+      "note": "Aanvulling: ChatGPT weet zelf geen live prijzen. Gebruik het om ideeën op te doen (flexibele data, andere luchthavens, overstappen) en check de echte prijs altijd zelf op Google Flights of Skyscanner en bij de airline.",
+      "url": "https://www.instagram.com/reel/Dd9gD1YqLqv/",
+      "type": "reel",
+      "account": "@rubydeborah__",
+      "media": "video",
+      "added": "2026-10-24"
     }
   ]
 }
