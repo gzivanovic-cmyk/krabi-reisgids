@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T17:05:03+00:00",
+  "updated": "2026-10-24T10:26:43+00:00",
   "gids": {
     "title": "Filipijnen: wonen en op afstand werken met het gezin",
     "checked": "2026-10-18",
@@ -1255,6 +1255,18 @@
       "account": "@petethepilot24",
       "media": "video",
       "added": "2026-10-21"
+    },
+    {
+      "page": "filipijnen",
+      "section": "tips-kim",
+      "text": "Reel met de tekst 'dit land heeft elk ander land voor mij verpest' over de Filipijnen. In de reel wordt een gratis reisschema van 2 weken door de Filipijnen aangeboden.",
+      "note": "Kim schreef er geen tekst bij.",
+      "url": "https://www.instagram.com/p/DeP1Yu3TT4n/",
+      "type": "reel",
+      "date": "23 okt 2026",
+      "account": "@rachelsmith___",
+      "media": "video",
+      "added": "2026-10-24"
     }
   ]
 }
