@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T18:16:01+00:00",
+  "updated": "2026-10-29T18:09:19+00:00",
   "gids": {
     "title": "Zes maanden proefwonen in Krabi",
     "checked": "2026-10-18",
@@ -2089,6 +2089,41 @@
       "account": "@pierrelouisors",
       "media": "video",
       "added": "2026-10-27"
+    },
+    {
+      "section": "aankomst",
+      "title": "7 fouten bij aankomst op het vliegveld in Thailand",
+      "text": "Zeven dingen om te regelen voor je naar Thailand vliegt: de digitale aankomstkaart (TDAC) binnen 3 dagen voor aankomst invullen, bewijs van een vervolgvlucht, paspoort lang genoeg geldig, bewijs dat je genoeg geld hebt, het adres van je hotel bij de hand, en: een visum is geen garantie dat je binnenkomt.",
+      "note": "Volgens de reel gaat de visumvrije periode voor veel toeristen vanaf 15 sep 2026 van 60 naar 30 dagen. Dat is wat de reel zegt; check het actuele reisadvies en de Thaise visumregels.",
+      "url": "https://www.instagram.com/p/De8T8wOOHwT/",
+      "type": "reel",
+      "date": "29 okt 2026",
+      "account": "@sabaijourney",
+      "media": "video",
+      "added": "2026-10-29"
+    },
+    {
+      "section": "praktisch",
+      "title": "6 handige apps voor Thailand",
+      "text": "Grab en Bolt (taxi), 12Go (bus, trein en boot), Klook (uitjes), Agoda (hotels) en Google Translate. In Bangkok raadt de reel de BTS/MRT (metro) aan.",
+      "url": "https://www.instagram.com/p/DdOvDXky6gy/",
+      "type": "reel",
+      "date": "29 okt 2026",
+      "account": "@kiranunpacked",
+      "media": "video",
+      "added": "2026-10-29"
+    },
+    {
+      "section": "activiteiten",
+      "title": "Koh Lipe, 'de Malediven van Thailand'",
+      "text": "Rustiger eiland dan Phuket of Koh Samui. Beste tijd nov–apr. Route uit de reel: vliegen naar Hat Yai, minibus naar Pak Bara Pier, dan speedboot. Plekken: North Point Beach, Sunrise Beach, Sunset Beach en Walking Street.",
+      "quote": "Dit is Koh lipe",
+      "url": "https://www.instagram.com/p/De7WRR4NQ0C/",
+      "type": "reel",
+      "date": "29 okt 2026",
+      "account": "@sinahsstories",
+      "media": "video",
+      "added": "2026-10-29"
     }
   ]
 }
