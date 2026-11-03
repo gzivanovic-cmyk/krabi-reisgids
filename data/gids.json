@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T18:08:44+00:00",
+  "updated": "2026-11-03T18:14:11+00:00",
   "gids": {
     "title": "Zes maanden proefwonen in Krabi",
     "checked": "2026-10-18",
@@ -2173,6 +2173,31 @@
       "account": "@amberbafalie",
       "media": "video",
       "added": "2026-11-03"
+    },
+    {
+      "section": "eerst-regelen",
+      "title": "Wonen in Thailand en belasting",
+      "text": "Reel van een Australische adviseur: wonen in Thailand, bedrijf in Hongkong en dan 0% belasting op winst en dividend. Gaat over Australische regels; laat dit voor Nederland altijd checken door een belastingadviseur.",
+      "quote": "Check!",
+      "url": "https://www.instagram.com/p/DfJMemolV1c/",
+      "type": "reel",
+      "topic": "Geld",
+      "date": "3 nov 2026",
+      "account": "@calluminternationalbroker",
+      "media": "video",
+      "added": "2026-11-04"
+    },
+    {
+      "section": "villa",
+      "title": "Huis van oud teakhout (Isaan)",
+      "text": "Een 'knockdown' huis van oud hout (veel teak) wordt in zijn geheel afgeleverd op een stuk grond in Isaan, Noordoost-Thailand. Geen prijs genoemd.",
+      "quote": "Zo kan het ook!",
+      "url": "https://www.instagram.com/p/DfMjQ1qz5WC/",
+      "type": "reel",
+      "date": "3 nov 2026",
+      "account": "@offgridchai",
+      "media": "video",
+      "added": "2026-11-04"
     }
   ]
 }
